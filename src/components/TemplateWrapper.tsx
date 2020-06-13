@@ -5,7 +5,7 @@ import { createGlobalStyle, styled } from '~/styled';
 import { PortfolioSiteThemeProvider } from '~/styled/theme';
 import '../utils/augmentEnvironment';
 import Favicon from '../img/favicon.ico';
-import AppleTouch from '../img/apple-touch-icon.png';
+import AppleIcon from '../img/apple-icon.png';
 
 interface TemplateWrapper {
   children: React.ReactNode;
@@ -79,7 +79,7 @@ const TemplateWrapper: React.FC = ({ children }) =>
       <meta name="theme-color" content="#221061" />
       <link rel="canonical" href="https://checkoutthew.com" />
       <link rel="shortcut icon" href={Favicon} />
-      <link rel="apple-touch-icon" sizes="57x57" href={AppleTouch} />
+      <link rel="apple-touch-icon" sizes="57x57" href={AppleIcon} />
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />
       <link
         rel="preconnect"
