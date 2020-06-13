@@ -4,7 +4,7 @@ import { styled } from '~/styled';
 // import { MarkdownWrapper } from '../MarkdownWrapper';
 import { Programming } from './Programming';
 import { Television } from '../../img/svg/Television';
-import WTV from '../../img/WTV.gif';
+import WTV from '../../img/wtv.gif';
 import Logo from '../../img/logo.png';
 
 const HeroWrapper = styled.div`
