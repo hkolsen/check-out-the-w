@@ -24,6 +24,11 @@ const HeaderContainer = styled.div`
   justify-content: space-between;
   margin: 0 0 1em 0;
   padding: 0.25em 0;
+  ${({ theme }) => theme.media.medium`
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 90%;
+  `};
 `;
 
 const Header = styled.h1`
@@ -69,6 +74,10 @@ const ShowContent = styled.div`
     flex-direction: row;
     justify-content: flex-start;
     padding: 2em;
+    ${({ theme }) => theme.media.medium`
+        flex-direction: column;
+        max-width: 90%;
+  `};
 `;
 
 const ShowDetails = styled.div`
@@ -80,16 +89,29 @@ const ShowDetails = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 1em;
+  ${({ theme }) => theme.media.medium`
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 0 1em;
+        max-width: 90%;
+  `};
 `;
 
 const ShowDay = styled.span`
   font-size: 1.5em;
   font-weight: bold;
+  ${({ theme }) => theme.media.medium`
+       font-size: 2em;
+       padding: 0 0.5em 0 0;
+  `};
 `;
 
 const ShowDate = styled.span`
   font-size: 2.5em;
   font-weight: bold;
+  ${({ theme }) => theme.media.medium`
+       font-size: 2em;
+  `};
 `;
 
 const ShowHeader = styled.span`
@@ -98,6 +120,9 @@ const ShowHeader = styled.span`
   flex: 1;
   flex-direction: column;
   padding: 0 2em;
+  ${({ theme }) => theme.media.medium`
+       padding: 0;
+  `};
 `;
 
 const ShowTitle = styled.h3`

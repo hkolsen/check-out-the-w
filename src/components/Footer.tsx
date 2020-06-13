@@ -13,6 +13,9 @@ const FooterContainer = styled.article`
     margin: 0 auto;
     max-width: 43em;
     width: 100%;
+    ${({ theme }) => theme.media.medium`
+        max-width: 90%;
+  `};
 `;
 
 const FooterHeader = styled.h2`
