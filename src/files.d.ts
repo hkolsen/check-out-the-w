@@ -10,5 +10,11 @@ declare module '*.png' {
   type url = string;
   export = url;
 }
+
+declare module '*.gif' {
+  var url: string;
+  type url = string;
+  export = url;
+}
 declare module 'gatsby-background-image';
 declare module 'react-intl';

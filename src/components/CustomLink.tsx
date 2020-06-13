@@ -27,7 +27,8 @@ export const StyledLink = styled(CustomLink)`
   transition: ${({ theme }) => theme.easing.GLOBAL};
   text-decoration-color: ${({ theme }) => theme.colors.ACTIVE};
   &:hover {
-    text-decoration: none;
+    font-weight: bold;
+    text-decoration-color: ${({ theme }) => theme.colors.ACCENT};
   }
 `;
 
@@ -37,7 +38,7 @@ export const TextLink: React.FC<CustomLinkProps> = (props: any) => (
 
 export const StyledCTALink = styled(CustomLink)`
   background: ${({ theme }) => theme.colors.ACTIVE};
-  border: 2px solid ${({ theme }) => theme.colors.ACTIVE};
+  border: 2px solid ${({ theme }) => theme.colors.BASE};
   color: ${({ theme }) => theme.colors.BASE};
   display: inline-block;
   font-size: 1em;
