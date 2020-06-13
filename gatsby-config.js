@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Welcome to my site',
+    title: 'Check Out The W',
     description:
-      'Heidi Olsen is a Senior Frontend Engineer located in Portland, Ore.',
+      'A community of hype creators and makers.',
   },
   plugins: [
     'gatsby-plugin-sharp',
@@ -22,13 +22,6 @@ module.exports = {
             options: {
               maxWidth: 2048,
             },
-          },
-          {
-            resolve:"@weknow/gatsby-remark-codepen",
-            options: {
-              theme: "dark",
-              height: 400
-            }
           },
         ],
       },

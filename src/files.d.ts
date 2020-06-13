@@ -12,4 +12,3 @@ declare module '*.png' {
 }
 declare module 'gatsby-background-image';
 declare module 'react-intl';
-declare module 'react-svg-radar-chart';

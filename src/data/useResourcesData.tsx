@@ -14,7 +14,6 @@ interface ResourcesQueryResponse {
         category: string;
         content: string;
       }>;
-      codeSamplesIntro: string;
     };
   };
 }
@@ -42,7 +41,6 @@ export const useResourcesData = () => {
               category
               content
             }
-            codeSamplesIntro
           }
         }
       }

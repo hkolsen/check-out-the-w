@@ -118,10 +118,10 @@ const TemplateWrapper: React.FC = ({ children }) =>
     <Helmet>
       <html lang="en" />
       <meta charSet="utf-8" />
-      <title>Heidi Olsen | Senior Frontend Engineer</title>
-      <meta name="description" content="Heidi is a passionate, solutions-oriented engineer located in Portland, Ore." />
+      <title>Check Out The W | All Welcome</title>
+      <meta name="description" content="We are a community of hype creators and makers." />
       <meta name="theme-color" content="#221061" />
-      <link rel="canonical" href="https://heidiolsen.com" />
+      <link rel="canonical" href="https://checkoutthew.com" />
       <link rel="shortcut icon" href={Favicon} />
       <link rel="apple-touch-icon" sizes="57x57" href={AppleTouch} />
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />
@@ -144,9 +144,6 @@ const TemplateWrapper: React.FC = ({ children }) =>
         <Logo />
       </HeaderName>
       </HeaderContainer>
-    <FixedContainer>
-      <Menu />
-    </FixedContainer>
     <MainContainer id="content">{children}</MainContainer>
   </TemplateWrapperContainer>
   </PortfolioSiteThemeProvider>

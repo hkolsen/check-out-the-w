@@ -8,30 +8,12 @@ interface HomeQueryResponse {
       subheader: string;
       aboutHeader: string;
       aboutContent: string;
-      currentlyExploring: string;
-      talkList: Array<{
+      programmingList: Array<{
         id: string;
         featured: boolean;
-        confName: string;
-        confURL: string;
+        title: string;
         date: string;
-        location: string;
-        title: string;
-        description: string;
-        slides: string;
-        video: string;
-        category: string;
-      }>;
-      blogList: Array<{
-        id: string;
-        featured: boolean;
-        title: string;
-        description: string;
-        url: string;
-        ctaText: string;
-        blogImg: any;
-        tags: string;
-        guestBlog: boolean;
+        time: string;
       }>;
     };
   };
@@ -48,30 +30,13 @@ export const useHomeData = () => {
             subheader
             aboutHeader
             aboutContent
-            currentlyExploring
-            talkList {
+            programmingList {
               id
               featured
-              confName
-              confURL
+              title
+              description
               date
-              location
-              title
-              description
-              slides
-              video
-              category
-            }
-            blogList {
-              id
-              featured
-              title
-              description
-              url
-              ctaText
-              blogImg
-              tags
-              guestBlog
+              time
             }
           }
         }

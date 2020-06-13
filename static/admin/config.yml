@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: production
 
 media_folder: static/img
 public_folder: /img
@@ -9,8 +9,8 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/ll19.md"
-        label: "Litmus Live Resources"
+      - file: "src/pages/resources.md"
+        label: "Resources"
         name: "resources"
         fields:
           - {
@@ -47,12 +47,6 @@ collections:
               - { label: Order, name: id, widget: number, required: false }
               - { label: Category, name: category, widget: string, required: false }
               - { label: Links, name: content, widget: markdown, required: false }
-          - {
-              label: Code Samples Intro,
-              name: codeSamplesIntro,
-              widget: markdown,
-              required: false,
-            }
       - file: "src/pages/index.md"
         label: "Home Page"
         name: "home"
@@ -88,44 +82,15 @@ collections:
               name: aboutContent,
               widget: markdown,
               required: false,
-            } 
-          - {
-              label: Currently Exploring,
-              name: currentlyExploring,
-              widget: markdown,
-              required: false,
-            }    
-          - label: Speaking Engagements
-            name: talkList
+            }   
+          - label: Programming
+            name: programmingList
             widget: list
             fields:
               - { label: Order, name: id, widget: number, required: false }
               - { label: Featured, name: featured, widget: boolean, required: false }
-              - { label: Conference Name, name: confName, widget: string, required: false }
-              - { label: Conference URL, name: confURL, widget: string, required: false }
-              - { label: Conference Data, name: date, widget: string, required: false }
-              - { label: Conference Location, name: location, widget: string, required: false }
-              - { label: Talk Title, name: title, widget: string, required: false }
-              - { label: Talk Description, name: description, widget: markdown, required: false }
-              - {
-                label: Talk Category,
-                name: category,
-                widget: select,
-                options: [Conference, Panel, Webinar, Meetup],
-                required: false,
-              }
-              - { label: Talk Slides, name: slides, widget: string, required: false }
-              - { label: Talk Video, name: video, widget: string, required: false }
-          - label: Blogs
-            name: blogList
-            widget: list
-            fields:
-              - { label: Order, name: id, widget: number, required: false }
-              - { label: Featured, name: featured, widget: boolean, required: false }
-              - { label: Guest Blog, name: guestBlog, widget: boolean, required: false }
-              - { label: Blog Title, name: title, widget: string, required: false }
-              - { label: Blog Description, name: description, widget: markdown, required: false }
-              - { label: Blog URL, name: url, widget: string, required: false }
-              - { label: Blog CTA Text, name: ctaText, widget: string, required: false }
-              - { label: Blog Img, name: blogImg, widget: string, required: false }
-              - { label: Blog Tags, name: tags, widget: string, required: false }
+              - { label: Show Title, name: title, widget: string, required: false }
+              - { label: Show Description, name: description, widget: markdown, required: false }
+              - { label: Show Date, name: date, widget: string, required: false }
+              - { label: Show Time, name: time, widget: string, required: false }
+

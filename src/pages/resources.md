@@ -35,18 +35,4 @@ resourceList:
       <li><a href="https://www.informationisbeautifulawards.com/" target="_blank">Information is Beautiful</a><br>An awards series to help inspire creative approaches to data viz.</li>
       <li><a href="http://plotparade.com/" target="_blank">Plot Parade</a><br>A fun data art project by Krisztina Sz&#369;cs.
       </ul>
-codeSamplesIntro: >-
-  <h2>Code Samples</h2>
-  <p>You can view Data Viz in Email code samples on <a href="https://codepen.io/collection/DgGxMQ" target="_blank">CodePen</a> or download and contribute to the <a href="https://github.com/hkolsen/email-data-viz" target="_blank">Github Repository</a>.</p>
 ---
-
-- ### Simple Numbers
-  https://codepen.io/SwissWebMiss/pen/QWLeJVL
-- ### Comparison Chart: Two products
-  https://codepen.io/SwissWebMiss/pen/bGGNRjM
-- ### Comparison Chart: Multiple products
-  https://codepen.io/SwissWebMiss/pen/YzKmbWX
-- ### Progress Tabs
-  https://codepen.io/SwissWebMiss/pen/LYYELqR
-- ### Area Chart
-  https://codepen.io/SwissWebMiss/pen/rNNazJM

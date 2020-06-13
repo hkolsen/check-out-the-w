@@ -1,7 +1,7 @@
-require('whatwg-fetch');
+// require('whatwg-fetch');
 
-export const onClientEntry = () => {
-    if (typeof window.IntersectionObserver === `undefined`) {
-      import(`intersection-observer`);
-    }
-  };
+// export const onClientEntry = () => {
+//     if (typeof window.IntersectionObserver === `undefined`) {
+//       import(`intersection-observer`);
+//     }
+//   };
