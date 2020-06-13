@@ -1,106 +1,87 @@
 import React from 'react';
-import { styled, useTheme } from '~/styled';
-import { SocialIcons } from '../img/svg/SocialIcons';
-import { CustomLink } from './CustomLink';
+import { styled} from '~/styled';
+import { TextLink } from './CustomLink';
 import { FormattedMessage } from 'react-intl';
 
 const FooterSection = styled.section`
     background: ${({ theme }) => theme.colors.BASE};
     color: ${({ theme }) => theme.colors.WHITE};
-    padding: 3em 1em;
+    padding: 3em 0;
+`;
+
+const FooterContainer = styled.article`
+    margin: 0 auto;
+    max-width: 43em;
+    width: 100%;
+    ${({ theme }) => theme.media.medium`
+        max-width: 90%;
+  `};
 `;
 
 const FooterHeader = styled.h2`
     color: ${({ theme }) => theme.colors.WHITE};
-    font-size: 1.25em;
+    font-size: 1.5em;
     margin: 0 0 0.25em;
     padding: 0;
-    text-align: center;
+    text-align: left;
 `;
 
 
-const SocialIconList = styled.ul`
-    align-items: center;
+const FooterLinkList = styled.ul`
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
-    margin: 0 auto;
-    max-width: 20em;
+    margin: 0;
     padding: 1em 0;
 `;
 
-const SocialIconContainer = styled.li`
-    width: 2em;
-    height: 2em;
-`;
-
-const SocialLink = styled(CustomLink)`
-    svg {
-        transition: ${({ theme }) => theme.easing.GLOBAL};
-    }
-    &:hover {
-        svg {
-            fill: ${({ theme }) => theme.colors.ACTIVE};
-            transform: scale(1.1);
-        }
-    }
-`;
-
 const FooterText = styled.div`
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     font-size: 0.75em;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 `;
 
-export const Footer: React.FC = () => {
-    const { colors } = useTheme();
-    return (
-    <FooterSection>
+const FooterLink = styled(TextLink)`
+    color: ${({ theme }) => theme.colors.WHITE}; 
+`;
+
+export const Footer: React.FC = () => 
+<FooterSection>
+    <FooterContainer>
         <FooterHeader>
         <FormattedMessage
-            defaultMessage="Find me online"
+            defaultMessage="Helpful Links"
             description="Header for the social links"
             id="Footer.SocialLinks"
             />
         </FooterHeader>
-        <SocialIconList>
-            <SocialIconContainer>
-                <SocialLink linkType="external" linkURL="https://twitter.com/SwissWebMiss">
-                    <SocialIcons color={colors.ACCENT} socialName="Twitter" />
-                </SocialLink>
-            </SocialIconContainer>
-            <SocialIconContainer>
-                <SocialLink linkType="external" linkURL="https://github.com/hkolsen">
-                    <SocialIcons color={colors.ACCENT} socialName="Github" />
-                </SocialLink>
-            </SocialIconContainer>
-            <SocialIconContainer>
-                <SocialLink linkType="external" linkURL="https://codepen.io/SwissWebMiss">
-                    <SocialIcons color={colors.ACCENT} socialName="CodePen" />
-                </SocialLink>
-            </SocialIconContainer>
-            <SocialIconContainer>
-                <SocialLink linkType="external" linkURL="https://www.linkedin.com/in/heidiolsen/">
-                    <SocialIcons color={colors.ACCENT} socialName="LinkedIn" /></SocialLink>
-            </SocialIconContainer>
-            <SocialIconContainer>
-                <SocialLink linkType="external" linkURL="mailto:swisswebmistress@gmail.com">
-                    <SocialIcons color={colors.ACCENT} socialName="Email" />
-                </SocialLink>
-            </SocialIconContainer>
-        </SocialIconList> 
+        <FooterLinkList>
+            <FooterLink linkURL="#" linkType="external">
+                Check Out The W Twitch Channel
+            </FooterLink>
+            <FooterLink linkURL="#" linkType="external">
+                Discord Channel
+            </FooterLink>
+            <FooterLink linkURL="#" linkType="external">
+                Community Resources
+            </FooterLink>
+            <FooterLink linkURL="#" linkType="external">
+                Code of Conduct
+            </FooterLink>
+        </FooterLinkList> 
         <FooterText>
         <FormattedMessage
-              defaultMessage="&copy; 2019 Heidi Olsen"
+              defaultMessage="&copy; 2020 Check Out The W, a GrandCooley Jam"
               description="Copyright for the site"
               id="Footer.Copyright"
               />
-        </FooterText>      
+        </FooterText>   
+        </FooterContainer>   
     </FooterSection>
-    )
-};
   

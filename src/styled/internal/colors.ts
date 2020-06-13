@@ -5,8 +5,9 @@ export const colors = {
   BASE: rgba(26, 28, 36, 1), //#1a1c24 
   WHITE: rgba(255, 255, 255, 1), // #FFFFFF hsla(0, 0, 100, 1)
   BORDER: rgba(206, 213, 223, 1), // #ced5df
-  ACCENT: rgba(200, 239, 231, 1), // #c8efe7 mint
-  ACTIVE: rgba(249, 140, 108, 1), // #221061 sherbert
+  BRIGHT_BG: rgba(251, 255, 90, 1), // #fbff5a yellow
+  ACCENT: rgba(62, 240, 228, 1), // #3ef0e4 seafoam
+  ACTIVE: rgba(248, 105, 158, 1), // #f8699e pink
   LIGHT_BG: rgba(244, 244, 247, 1), // #f4f4f7 light grayish-blue
   HIGHLIGHT: rgba(249, 218, 135, 1), // #f9da87 yellow
 } as const;

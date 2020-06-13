@@ -12,9 +12,12 @@ interface HomeQueryResponse {
         id: string;
         featured: boolean;
         title: string;
+        description: string;
+        day: string;
         date: string;
         time: string;
       }>;
+      discordContent: string;
     };
   };
 }
@@ -35,9 +38,11 @@ export const useHomeData = () => {
               featured
               title
               description
+              day
               date
               time
             }
+            discordContent
           }
         }
       }

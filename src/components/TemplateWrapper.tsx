@@ -69,47 +69,6 @@ const SkipLink = styled.a`
   }
 `;
 
-const HeaderContainer = styled.header`
-  align-items: center;
-  display: flex;
-  position: absolute;
-  z-index: 5;
-  width: 100%;
-  ${({ theme }) => theme.media.medium`
-    margin: 1em 0 0;
-  `};
-`;
-
-const HeaderName = styled(TextLink)`
-  text-align: center; 
-  text-decoration: none;
-  margin: 0.5em auto;
-  width: 15em;
-  span {
-    color: ${({ theme }) => theme.colors.ACTIVE};
-    font-family: ${({ theme }) => theme.fonts.SANS_SERIF};
-    font-size: 2em;
-    font-weight: bold;
-    transition: ${({ theme }) => theme.easing.GLOBAL};
-  }
-  &:hover {
-    span {
-      color: ${({ theme }) => theme.colors.HIGHLIGHT};
-    }
-  }
-  ${({ theme }) => theme.media.small`
-    margin: 0 0 0 1em;
-  `};
-`;
-
-const FixedContainer = styled.div`
-  padding: 0;
-  position: fixed;
-  transition: ${({ theme }) => theme.easing.GLOBAL};
-  width: 100%;
-  z-index: 10;
-`;
-
 const MainContainer = styled.main``;
 
 const TemplateWrapper: React.FC = ({ children }) => 
@@ -139,11 +98,6 @@ const TemplateWrapper: React.FC = ({ children }) =>
           id="TemplateWrapper.SkipLink"
         />
       </SkipLink>
-      <HeaderContainer>
-      <HeaderName linkURL="/" linkType="internal">
-        <Logo />
-      </HeaderName>
-      </HeaderContainer>
     <MainContainer id="content">{children}</MainContainer>
   </TemplateWrapperContainer>
   </PortfolioSiteThemeProvider>

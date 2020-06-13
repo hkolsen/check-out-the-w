@@ -9,6 +9,28 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      - file: "src/pages/code-of-conduct.md"
+        label: "Code of Conduct"
+        name: "coc"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "coc-page",
+            }
+          - {
+              label: SEO Title,
+              name: seoTitle,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: SEO Description,
+              name: seoDescription,
+              widget: string,
+              required: false,
+            }
       - file: "src/pages/resources.md"
         label: "Resources"
         name: "resources"
@@ -38,8 +60,6 @@ collections:
               widget: markdown,
               required: false,
             }
-          - { label: Hero Image, name: resourcesHeroImg, widget: image, required: false }
-          - { label: Hero Image Alt Text, name: resourcesHeroImgAlt, widget: string, required: false }
           - label: Resources
             name: resourceList
             widget: list

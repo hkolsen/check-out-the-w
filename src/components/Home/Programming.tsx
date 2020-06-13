@@ -2,9 +2,9 @@ import React from 'react';
 import { styled } from '~/styled';
 import { useHomeData } from '~/data/useHomeData';
 import { FormattedMessage } from 'react-intl';
+import { CTALink } from '../CustomLink';
 
 const Wrapper = styled.div`
-  background: ${({ theme }) => theme.colors.LIGHT_BG};
   width: 100%;
 `;
 
@@ -17,84 +17,164 @@ const Section = styled.section`
   `};
 `;
 
+const HeaderContainer = styled.div`
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0 1em 0;
+  padding: 0.25em 0;
+  ${({ theme }) => theme.media.medium`
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 90%;
+  `};
+`;
+
 const Header = styled.h1`
-  background: ${({ theme }) => theme.colors.ACCENT};
-  border: 2px solid ${({ theme }) => theme.colors.DARK_GRAY};
-  box-shadow: ${({ theme }) => theme.colors.DARK_GRAY} -8px 8px;
   color: ${({ theme }) => theme.colors.BASE};
-  display: inline-block;
   font-family: ${({ theme }) => theme.fonts.SANS_SERIF};
   font-size: 3em;
   font-weight: ${({ theme }) => theme.weights.SEMI_BOLD};
-  margin: 0 1em 1em 0;
-  min-width: 10em;
-  padding: 0.25em 0.5em;
+  margin: 0;
+  padding: 0;
   ${({ theme }) => theme.media.medium`
       font-size: 2.5em;
       min-width: auto;
   `};
 `;
 
+const HeaderLink = styled(CTALink)`
+  font-size: 2em;
+  margin: 0;
+`;
+
 const List = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
   list-style: none;
   margin: 0;
   padding: 0;
-  ${({ theme }) => theme.media.small`
-    grid-template-columns: 1fr;
-  `};
 `;
 
-const Item = styled.li`
-    background: ${({ theme }) => theme.colors.WHITE};
+const Item = styled.li<{ featured: boolean }>`
+    background: ${({ theme, featured }) => featured ? theme.colors.ACTIVE : theme.colors.WHITE};
     border: 2px solid ${({ theme }) => theme.colors.DARK_GRAY};
-    box-shadow: ${({ theme }) => theme.colors.DARK_GRAY} -8px 8px;
+    border-top: ${({ theme, featured }) => featured ? `2px solid ${theme.colors.DARK_GRAY}` : `none`};
+    border-bottom: ${({ theme, featured }) => featured ? `5px solid ${theme.colors.DARK_GRAY}` : `2px solid ${theme.colors.DARK_GRAY}`};
     display: flex;
-    flex-direction: row;
-    ${({ theme }) => theme.media.small`
     flex-direction: column;
-  `};
+    margin-right: ${({ featured }) => featured ? 0 : 2}em;
+    margin-left: ${({ featured }) => featured ? 0 : 2}em;
 `;
 
 const ShowContent = styled.div`
     display: flex;
     flex: 1;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1em;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 2em;
+    ${({ theme }) => theme.media.medium`
+        flex-direction: column;
+        max-width: 90%;
+  `};
+`;
+
+const ShowDetails = styled.div`
+  align-items: center;
+  background: ${({ theme }) => theme.colors.ACCENT};
+  border: 2px solid ${({ theme }) => theme.colors.DARK_GRAY};
+  box-shadow: ${({ theme }) => theme.colors.DARK_GRAY} -8px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  ${({ theme }) => theme.media.medium`
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 0 1em;
+        max-width: 90%;
+  `};
+`;
+
+const ShowDay = styled.span`
+  font-size: 1.5em;
+  font-weight: bold;
+  ${({ theme }) => theme.media.medium`
+       font-size: 2em;
+       padding: 0 0.5em 0 0;
+  `};
+`;
+
+const ShowDate = styled.span`
+  font-size: 2.5em;
+  font-weight: bold;
+  ${({ theme }) => theme.media.medium`
+       font-size: 2em;
+  `};
+`;
+
+const ShowHeader = styled.span`
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 2em;
+  ${({ theme }) => theme.media.medium`
+       padding: 0;
+  `};
 `;
 
 const ShowTitle = styled.h3`
     color: ${({ theme }) => theme.colors.BASE};
     font-family: ${({ theme }) => theme.fonts.SANS_SERIF};
-    font-size: 1.5em;
+    font-size: 2.5em;
     line-height: 1.25;
-    margin: 0.25em 0 1em;
-    min-height: 3em;
+    margin: 0 0 0.25em;
 `;
+
+const ShowDesc = styled.span``;
+
+const ShowTime = styled.span`
+  font-size: 2em;
+  font-weight: bold;
+`;
+
 
 export const Programming: React.FC = () => {
   const { frontmatter } = useHomeData();
   return (
     <Wrapper>
     <Section>
+      <HeaderContainer>
         <Header>
           <FormattedMessage
-            defaultMessage="Selected "
-            description="Navigation link that brings you to the About section"
-            id=".Header"
+            defaultMessage="Coming Up Next &#9656;"
+            description="Header that explains what's next in programming"
+            id="Programming.Header"
             />
-        </Header>
+            </Header>
+            <HeaderLink linkURL="https://www.twitch.tv/checkoutthew" linkType="external">
+            <FormattedMessage
+            defaultMessage="Tune in on Twitch"
+            description="Navigation link that brings you to the Twitch"
+            id="Programming.link"
+            />
+            </HeaderLink>
+        </HeaderContainer>
         <List>
         {(frontmatter.programmingList || []).map((show) => (
-            <Item key={show.id}>
+            <Item key={show.id} featured={show.featured}>
                 <ShowContent>
-                {show.date}{show.time}
-                <ShowTitle>{show.title}</ShowTitle>
-                {show.description}
+                <ShowDetails>
+                  <ShowDay>{show.day}</ShowDay>
+                  <ShowDate>{show.date}</ShowDate>
+                </ShowDetails>
+                <ShowHeader>
+                  <ShowTitle>{show.title}</ShowTitle>
+                  <ShowDesc>{show.description}</ShowDesc>
+                </ShowHeader>
+                <ShowTime>{show.time}</ShowTime>
               </ShowContent>
             </Item>
         ))}

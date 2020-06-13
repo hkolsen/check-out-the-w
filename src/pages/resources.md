@@ -3,8 +3,6 @@ templateKey: resources-page
 resourcesHeader: Welcome friend,
 resourcesSubheader: >-
   <p>Thank you for attending my talk at Litmus Live about <span>Effective Storytelling with Data Visualization</span>! Here you will find <span>code samples</span> of accessible data viz in email as well as additional <span>resources</span> to help get you started.</p>
-resourcesHeroImg: ../img/litmus-live-slide.png
-resourcesHeroImgAlt: Title slide for Effective Data Visualization in Email
 resourceList:
   - id: 1
     category: Read
