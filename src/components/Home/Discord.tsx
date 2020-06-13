@@ -75,7 +75,10 @@ const Body = styled(MarkdownWrapper)`
 `;
 
 const DiscordLink = styled(CTALink)`
-  margin: 1.5em 0 0;
+  margin: 0;
+  ${({ theme }) => theme.media.medium`
+       font-size: 1.25em;
+    `};
 `;
 
 export const Discord: React.FC = () => {

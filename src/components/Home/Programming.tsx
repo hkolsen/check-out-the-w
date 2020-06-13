@@ -58,7 +58,7 @@ const List = styled.ul`
 `;
 
 const Item = styled.li<{ featured: boolean }>`
-    background: ${({ theme, featured }) => featured ? theme.colors.ACTIVE : theme.colors.WHITE};
+    background: ${({ theme, featured }) => featured ? theme.colors.BRIGHT_BG : theme.colors.WHITE};
     border: 2px solid ${({ theme }) => theme.colors.DARK_GRAY};
     border-top: ${({ theme, featured }) => featured ? `2px solid ${theme.colors.DARK_GRAY}` : `none`};
     border-bottom: ${({ theme, featured }) => featured ? `5px solid ${theme.colors.DARK_GRAY}` : `2px solid ${theme.colors.DARK_GRAY}`};
@@ -92,8 +92,7 @@ const ShowDetails = styled.div`
   ${({ theme }) => theme.media.medium`
         flex-direction: row;
         justify-content: space-around;
-        margin: 0 0 1em;
-        max-width: 90%;
+        margin: 0 0 2em;
   `};
 `;
 
@@ -133,11 +132,17 @@ const ShowTitle = styled.h3`
     margin: 0 0 0.25em;
 `;
 
-const ShowDesc = styled.span``;
+const ShowDesc = styled.span`
+  font-size: 1em;
+`;
 
 const ShowTime = styled.span`
   font-size: 2em;
   font-weight: bold;
+  ${({ theme }) => theme.media.medium`
+      border-top: 2px solid ${({ theme }) => theme.colors.ACCENT};
+      margin: 1em 0 0;
+  `};
 `;
 
 
