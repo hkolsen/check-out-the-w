@@ -4,9 +4,6 @@ import Helmet from 'react-helmet';
 import { createGlobalStyle, styled } from '~/styled';
 import { PortfolioSiteThemeProvider } from '~/styled/theme';
 import '../utils/augmentEnvironment';
-import { Menu } from './Menu';
-import { TextLink } from './CustomLink';
-import { Logo } from '../img/svg/Logo';
 import Favicon from '../img/favicon.ico';
 import AppleTouch from '../img/apple-touch-icon.png';
 

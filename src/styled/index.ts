@@ -26,9 +26,9 @@ const {
 } = interop(styledComponents);
 
 export { css, ThemeProvider, styled, withTheme, createGlobalStyle };
-export type PortfolioSiteTheme = PortfolioSiteTheme;
+export type PortfolioSiteThemeType = PortfolioSiteTheme;
 
-export function useTheme(): PortfolioSiteTheme {
+export function useTheme(): PortfolioSiteThemeType {
   const theme = useContext(ThemeContext);
   if (!theme) {
     throw new TypeError(`Expected to be within a ThemeContext.Provider`);
