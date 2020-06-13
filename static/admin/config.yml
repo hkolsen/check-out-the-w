@@ -1,0 +1,131 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/ll19.md"
+        label: "Litmus Live Resources"
+        name: "resources"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "resources-page",
+            }
+          - {
+              label: SEO Title,
+              name: seoTitle,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: SEO Description,
+              name: seoDescription,
+              widget: string,
+              required: false,
+            }
+          - { label: Heading, name: resourcesHeader, widget: string, required: false }
+          - {
+              label: Subheader,
+              name: resourcesSubheader,
+              widget: markdown,
+              required: false,
+            }
+          - { label: Hero Image, name: resourcesHeroImg, widget: image, required: false }
+          - { label: Hero Image Alt Text, name: resourcesHeroImgAlt, widget: string, required: false }
+          - label: Resources
+            name: resourceList
+            widget: list
+            fields:
+              - { label: Order, name: id, widget: number, required: false }
+              - { label: Category, name: category, widget: string, required: false }
+              - { label: Links, name: content, widget: markdown, required: false }
+          - {
+              label: Code Samples Intro,
+              name: codeSamplesIntro,
+              widget: markdown,
+              required: false,
+            }
+      - file: "src/pages/index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
+            }
+          - {
+              label: SEO Title,
+              name: seoTitle,
+              widget: string,
+              required: false,
+            }
+          - {
+              label: SEO Description,
+              name: seoDescription,
+              widget: string,
+              required: false,
+            }
+          - { label: Heading, name: header, widget: string, required: false }
+          - {
+              label: Subheader,
+              name: subheader,
+              widget: markdown,
+              required: false,
+            }
+          - { label: About Heading, name: aboutHeader, widget: string, required: false }
+          - {
+              label: About Section,
+              name: aboutContent,
+              widget: markdown,
+              required: false,
+            } 
+          - {
+              label: Currently Exploring,
+              name: currentlyExploring,
+              widget: markdown,
+              required: false,
+            }    
+          - label: Speaking Engagements
+            name: talkList
+            widget: list
+            fields:
+              - { label: Order, name: id, widget: number, required: false }
+              - { label: Featured, name: featured, widget: boolean, required: false }
+              - { label: Conference Name, name: confName, widget: string, required: false }
+              - { label: Conference URL, name: confURL, widget: string, required: false }
+              - { label: Conference Data, name: date, widget: string, required: false }
+              - { label: Conference Location, name: location, widget: string, required: false }
+              - { label: Talk Title, name: title, widget: string, required: false }
+              - { label: Talk Description, name: description, widget: markdown, required: false }
+              - {
+                label: Talk Category,
+                name: category,
+                widget: select,
+                options: [Conference, Panel, Webinar, Meetup],
+                required: false,
+              }
+              - { label: Talk Slides, name: slides, widget: string, required: false }
+              - { label: Talk Video, name: video, widget: string, required: false }
+          - label: Blogs
+            name: blogList
+            widget: list
+            fields:
+              - { label: Order, name: id, widget: number, required: false }
+              - { label: Featured, name: featured, widget: boolean, required: false }
+              - { label: Guest Blog, name: guestBlog, widget: boolean, required: false }
+              - { label: Blog Title, name: title, widget: string, required: false }
+              - { label: Blog Description, name: description, widget: markdown, required: false }
+              - { label: Blog URL, name: url, widget: string, required: false }
+              - { label: Blog CTA Text, name: ctaText, widget: string, required: false }
+              - { label: Blog Img, name: blogImg, widget: string, required: false }
+              - { label: Blog Tags, name: tags, widget: string, required: false }
