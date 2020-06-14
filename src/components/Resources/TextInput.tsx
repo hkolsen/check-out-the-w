@@ -14,10 +14,9 @@ const FormFieldWrapper = styled.fieldset`
   width: 100%;
 `;
 
-const FormLabel = styled.label<{ visible: boolean; light: boolean }>`
+const FormLabel = styled.label<{ visible: boolean }>`
   align-items: center;
-  color: ${({ theme, light }) =>
-    light ? theme.colors.BASE : theme.colors.WHITE};
+  color: ${({ theme }) => theme.colors.BASE};
   display: flex;
   flex-direction: row;
   font-size: 1em;
@@ -37,10 +36,10 @@ const FormInput = styled.input<{
   background: transparent;
   border: ${({ visible, theme, light }) =>
     `2px solid ${
-      visible || light ? theme.colors.ACCENT : theme.colors.WHITE
+      visible || light ? theme.colors.ACCENT : theme.colors.BASE
     }`};
   color: ${({ light, theme }) =>
-    light ? theme.colors.BASE : theme.colors.WHITE};
+    light ? theme.colors.BASE : theme.colors.BASE};
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25em;
   font-weight: ${({ theme }) => theme.weights.REGULAR};
@@ -50,16 +49,17 @@ const FormInput = styled.input<{
   width: 95%;
   transition: 0.3s all;
   ::placeholder {
-    color: ${({ theme }) => theme.colors.WHITE};
+    color: ${({ theme }) => theme.colors.BASE};
     font-weight: ${({ theme }) => theme.weights.LIGHT};
   }
   :hover {
     background: ${({ light, theme }) =>
-      light ? theme.colors.WHITE : theme.colors.BASE};
+      light ? theme.colors.WHITE : theme.colors.LIGHT_BG};
   }
   :focus {
     background: ${({ light, theme }) =>
-      light ? theme.colors.WHITE : theme.colors.BASE};
+      light ? theme.colors.WHITE : theme.colors.LIGHT_BG};
+      border: ${({ theme }) => `2px solid ${theme.colors.ACCENT}`};
   }
   :focus:invalid {
   }

@@ -53,6 +53,15 @@ const FormBody = styled.p`
   font-size: 1em;
   margin: 0 0 1em;
   padding: 0;
+  a {
+      color: ${({ theme }) => theme.colors.BASE};
+      transition: ${({ theme }) => theme.easing.GLOBAL};
+      text-decoration-color: ${({ theme }) => theme.colors.ACTIVE};
+      &:hover {
+        font-weight: bold;
+        text-decoration-color: ${({ theme }) => theme.colors.ACCENT};
+      }
+    }
 `;
 
 const FormSet = styled.fieldset`
@@ -144,12 +153,38 @@ const ButtonContainer = styled.div``;
 
 const FormSubmit = styled.button`
   margin: 1em 1em 0 0;
-  ${({ theme }) => theme.media.small`
-    display: block;
-    font-size: 1.25em;
-    margin: 1em 0;
-    padding: 0 2rem;
-  `};
+  background: ${({ theme }) => theme.colors.ACTIVE};
+  border: 2px solid ${({ theme }) => theme.colors.BASE};
+  color: ${({ theme }) => theme.colors.BASE};
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: ${({ theme }) => theme.fonts.SANS_SERIF};
+  font-weight: bold;
+  padding: 0.25em 1em 0.25em 0.75em;
+  text-decoration: none;
+  transition: ${({ theme }) => theme.easing.GLOBAL};
+  &:after {
+    border-style: solid;
+    border-width: 0.125em 0.125em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.4em;
+    position: relative;
+    vertical-align: middle;
+    width: 0.4em;
+    left: 0.25em;
+    transform: rotate(45deg);
+  }
+  :focus-within {
+    background-color: ${({ theme }) => theme.colors.WHITE};
+    border: 2px dashed ${({ theme }) => theme.colors.BASE};
+    color: ${({ theme }) => theme.colors.BASE};
+  }
+  :hover {
+    background-color: ${({ theme }) => theme.colors.WHITE};
+    border: 2px dashed ${({ theme }) => theme.colors.BASE};
+    color: ${({ theme }) => theme.colors.BASE};
+  }
 `;
 
 const FormConfirmation = styled.div`

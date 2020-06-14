@@ -23,6 +23,14 @@ const FormTextArea = styled.textarea`
   ${({ theme }) => theme.media.small`
     min-height: 10em;
   `};
+  :hover {
+    border: ${({ theme }) => `2px solid ${theme.colors.ACCENT}`};
+  }
+  :focus {
+    border: ${({ theme }) => `2px solid ${theme.colors.ACCENT}`};
+  }
+  :focus:invalid {
+  }
 `;
 
 const RadioButton = styled.input.attrs({ type: 'radio' })`
