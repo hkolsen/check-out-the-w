@@ -3,6 +3,7 @@ import { styled } from '~/styled';
 import { useHomeData } from '~/data/useHomeData';
 import { FormattedMessage } from 'react-intl';
 import { CTALink } from '../CustomLink';
+import { MarkdownWrapper } from '../MarkdownWrapper';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -136,8 +137,17 @@ const ShowTitle = styled.h3`
     margin: 0 0 0.25em;
 `;
 
-const ShowDesc = styled.span`
+const ShowDesc = styled(MarkdownWrapper)`
   font-size: 1em;
+  a {
+      color: ${({ theme }) => theme.colors.BASE};
+      transition: ${({ theme }) => theme.easing.GLOBAL};
+      text-decoration-color: ${({ theme }) => theme.colors.ACTIVE};
+      &:hover {
+        font-weight: bold;
+        text-decoration-color: ${({ theme }) => theme.colors.ACCENT};
+      }
+    }
 `;
 
 const ShowTime = styled.span`
@@ -181,7 +191,7 @@ export const Programming: React.FC = () => {
                 </ShowDetails>
                 <ShowHeader>
                   <ShowTitle>{show.title}</ShowTitle>
-                  <ShowDesc>{show.description}</ShowDesc>
+                  <ShowDesc content={show.description} />
                 </ShowHeader>
                 <ShowTime>{show.time}</ShowTime>
               </ShowContent>
