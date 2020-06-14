@@ -80,6 +80,7 @@ const CTAContainer = styled.span`
 
 const AboutLink = styled(CTALink)`
     ${({ theme }) => theme.media.medium`
+        font-size: 1.25em;
         margin: 1.5em 0 0.5em;
   `};
 `;

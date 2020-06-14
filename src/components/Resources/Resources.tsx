@@ -2,7 +2,6 @@ import React from 'react';
 import { styled } from '~/styled';
 import { MarkdownWrapper } from '../MarkdownWrapper';
 import { useResourcesData } from '~/data/useResourcesData';
-import { FormattedMessage } from 'react-intl';
 
 const ResourcesWrapper = styled.div`
   background: ${({ theme }) => theme.colors.LIGHT_BG};
@@ -27,9 +26,26 @@ const ResourcesHeader = styled.h2`
   margin: 0 0 0.5em;
   padding: 0.25em 0.5em;
   ${({ theme }) => theme.media.medium`
-      font-size: 2.5em;
+      font-size: 2em;
   `};
 `;
+
+const ResourcesSubheader = styled(MarkdownWrapper)`
+    p {
+        font-size: 1em;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+    }
+    a {
+      color: ${({ theme }) => theme.colors.BASE};
+      transition: ${({ theme }) => theme.easing.GLOBAL};
+      text-decoration-color: ${({ theme }) => theme.colors.ACTIVE};
+      &:hover {
+        font-weight: bold;
+        text-decoration-color: ${({ theme }) => theme.colors.ACCENT};
+      }
+}`;
 
 const ResourcesList = styled.ul`
   display: grid;
@@ -56,7 +72,7 @@ const ResourceItem = styled.li`
 
 const ResourceCategory = styled.h2`
   font-size: 0.8em;
-  font-weight: ${({ theme }) => theme.weights.SEMI_BOLD};
+  font-weight: bold;
   line-height: 1;
   span {
     background: ${({ theme }) => theme.colors.ACTIVE};
@@ -65,6 +81,9 @@ const ResourceCategory = styled.h2`
     padding: 0.5em 0.75em;
     text-transform: uppercase;
   }
+  ${({ theme }) => theme.media.medium`
+      font-size: 1em;
+  `};
 `;
 
 const ResourceContent = styled(MarkdownWrapper)`
@@ -99,15 +118,12 @@ const ResourceContent = styled(MarkdownWrapper)`
 export const Resources: React.FC = () => {
   const { frontmatter } = useResourcesData();
   return (
-    <ResourcesWrapper id="Resources">
+    <ResourcesWrapper>
     <ResourcesSection>
         <ResourcesHeader>
-          <FormattedMessage
-            defaultMessage="Resources"
-            description="Navigation link that brings you to the About section"
-            id="Resources.Header"
-            />
+          {frontmatter.resourcesHeader}
           </ResourcesHeader>
+          <ResourcesSubheader content={frontmatter.resourcesSubheader} />
         <ResourcesList>
         {(frontmatter.resourceList || []).map((resource) => (
             <ResourceItem key={resource.id}>

@@ -10,6 +10,9 @@ const DiscordWrapper = styled.div`
     border-bottom: 0.5em solid ${({ theme }) => theme.colors.DARK_GRAY};
     padding: 3em 0;
     width: 100%;
+    ${({ theme }) => theme.media.medium`
+        padding: 3em 0 2.5em;
+  `};
 `;
 
 const DiscordSection = styled.section`
@@ -65,7 +68,6 @@ const Body = styled(MarkdownWrapper)`
       }
     }
     ${({ theme }) => theme.media.medium`
-        min-height: 10em;
         padding: 0.5em 0; 
         width: 100%
         br {
@@ -75,7 +77,10 @@ const Body = styled(MarkdownWrapper)`
 `;
 
 const DiscordLink = styled(CTALink)`
-  margin: 1.5em 0 0;
+  margin: 1em 0 0;
+  ${({ theme }) => theme.media.medium`
+       font-size: 1.25em;
+    `};
 `;
 
 export const Discord: React.FC = () => {

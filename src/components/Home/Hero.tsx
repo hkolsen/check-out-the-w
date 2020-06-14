@@ -1,7 +1,5 @@
 import React from 'react';
 import { styled } from '~/styled';
-// import { useHomeData } from '~/data/useHomeData';
-// import { MarkdownWrapper } from '../MarkdownWrapper';
 import { Programming } from './Programming';
 import { Television } from '../../img/svg/Television';
 import WTV from '../../img/wtv.gif';
@@ -23,8 +21,7 @@ const HeroSection = styled.section`
     margin: 0 auto;
     max-width: 1290px;
     ${({ theme }) => theme.media.medium`
-        flex-direction: column;
-        max-width: 90%;
+        flex-direction: column-reverse;
     `};
 `;
 
@@ -35,51 +32,6 @@ const HeroImg = styled.img`
     width: auto;
     transform: rotate(-5deg);
 `;
-
-// const Header = styled.h1`
-//     color: ${({ theme }) => theme.colors.WHITE};
-//     font-family: ${({ theme }) => theme.fonts.SANS_SERIF};
-//     font-size: 3.5em;
-//     line-height: 1.5;
-//     margin: 0;
-//     padding: 0;
-//     ${({ theme }) => theme.media.medium`
-//         font-size: 2.5em;
-//         line-height: 1;
-//     `};
-// `;
-
-// const Intro = styled(MarkdownWrapper)`
-//     color: ${({ theme }) => theme.colors.WHITE};
-//     max-width: 25em;
-//     p {
-//         font-size: 1.25em;
-//         line-height: 1.5;
-//         margin: 0;
-//         padding: 0;
-//         span {
-//             color: ${({ theme }) => theme.colors.BASE};
-//             padding: 0 0.25em;
-//         }
-//         .accent {
-//             background:${({ theme }) => theme.colors.ACCENT}; 
-//         }
-//         .active {
-//             background:${({ theme }) => theme.colors.ACTIVE}; 
-//         }
-//         .highlight {
-//             background:${({ theme }) => theme.colors.HIGHLIGHT}; 
-//         }
-//     }
-//     ${({ theme }) => theme.media.medium`
-//         min-height: 10em;
-//         padding: 0.5em 0; 
-//         width: 100%;
-//         br {
-//             display: none;
-//         }
-//     `};
-// `;
 
 const TVContainer = styled.div`
     position: relative;
@@ -104,8 +56,6 @@ export const Hero: React.FC = () => (
         <HeroSection>
             <HeroContent>
                 <HeroImg src={Logo} alt="Check Out The W Logo" />
-                {/* <Header>{frontmatter.header}</Header>
-                <Intro content={frontmatter.subheader} /> */}
             </HeroContent>
             <TVContainer>
             <WTVLogo src={WTV} />

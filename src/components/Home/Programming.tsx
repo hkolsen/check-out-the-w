@@ -58,7 +58,7 @@ const List = styled.ul`
 `;
 
 const Item = styled.li<{ featured: boolean }>`
-    background: ${({ theme, featured }) => featured ? theme.colors.ACTIVE : theme.colors.WHITE};
+    background: ${({ theme, featured }) => featured ? theme.colors.BRIGHT_BG : theme.colors.WHITE};
     border: 2px solid ${({ theme }) => theme.colors.DARK_GRAY};
     border-top: ${({ theme, featured }) => featured ? `2px solid ${theme.colors.DARK_GRAY}` : `none`};
     border-bottom: ${({ theme, featured }) => featured ? `5px solid ${theme.colors.DARK_GRAY}` : `2px solid ${theme.colors.DARK_GRAY}`};
@@ -91,9 +91,9 @@ const ShowDetails = styled.div`
   padding: 1em;
   ${({ theme }) => theme.media.medium`
         flex-direction: row;
-        justify-content: space-around;
-        margin: 0 0 1em;
-        max-width: 90%;
+        justify-content: flex-start;
+        margin: 0 0 2em;
+        padding: 0.5em;
   `};
 `;
 
@@ -101,7 +101,7 @@ const ShowDay = styled.span`
   font-size: 1.5em;
   font-weight: bold;
   ${({ theme }) => theme.media.medium`
-       font-size: 2em;
+       font-size: 1.5em;
        padding: 0 0.5em 0 0;
   `};
 `;
@@ -110,7 +110,7 @@ const ShowDate = styled.span`
   font-size: 2.5em;
   font-weight: bold;
   ${({ theme }) => theme.media.medium`
-       font-size: 2em;
+       font-size: 1.5em;
   `};
 `;
 
@@ -133,11 +133,17 @@ const ShowTitle = styled.h3`
     margin: 0 0 0.25em;
 `;
 
-const ShowDesc = styled.span``;
+const ShowDesc = styled.span`
+  font-size: 1em;
+`;
 
 const ShowTime = styled.span`
   font-size: 2em;
   font-weight: bold;
+  ${({ theme }) => theme.media.medium`
+      border-top: 2px solid ${({ theme }) => theme.colors.ACCENT};
+      margin: 1em 0 0;
+  `};
 `;
 
 

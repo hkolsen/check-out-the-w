@@ -1,36 +1,46 @@
 ---
 templateKey: resources-page
-resourcesHeader: Welcome friend,
+resourcesHeader: Community Resources
 resourcesSubheader: >-
-  <p>Thank you for attending my talk at Litmus Live about <span>Effective Storytelling with Data Visualization</span>! Here you will find <span>code samples</span> of accessible data viz in email as well as additional <span>resources</span> to help get you started.</p>
+  <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation. <br /><br />We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space. The following are resources that allow us to use our relative priviledge to support the larger community through donations, education, and creating space.<br /><br />If you have a resource you would like to share, please fill out the form below. All contributions are welcome and will need to adhere to our <a href="/code-of-conduct">Code of Conduct</a>.</p>
 resourceList:
   - id: 1
-    category: Read
+    category: Donate
     content: >-
       <ul>
-        <li><a href="https://www.powells.com/book/storytelling-with-data-a-data-visualization-guide-for-business-professionals-9781119002253" target="_blank">Storytelling with Data</a><br>
-        Dive into visual perception and the fundamentals of data visualization.</li>
-        <li><a href="https://www.powells.com/book/-9781633690707" target="_blank">Good Charts</a><br>
-        Great guide to how data visualization works and how to use it to impress and persuade.</li>
-        <li><a href="https://www.powells.com/book/-9781119483892" target="_blank">Info We Trust</a><br>
-        This book does a really great job of showing you how to tell inspiring stories through data in unconventional ways.</li>
-        <li><a href="https://webaim.org/techniques/tables/data" target="_blank">Creating Accessible Tables</a><br>WebAIM article on how to create accessible tables in HTML.</li>
+         <li><a href="https://www.blackgirlscode.com/" target="_blank">Black Girls Code</a><br>
+        BGC's mission is to increase the number of women of color in the digital technology space by introducing girls 7-17 to Computer Science.</li>
+       <li><a href="https://www.carenotcops.org/" target="_blank">Care Not Cops Campaign PDX</a><br>
+        Grassroots campaign in PDX to challenge policing and shift our reliance and resources to self-determined community care.</li>
+        <li><a href="https://www.dontshootpdx.org/" target="_blank">Don't Shoot PDX</a><br>
+        A social justice non-profit that promotes art, education & civic participation to create social change.</li>
+        <li><a href="https://www.instagram.com/pdx.equity.in.action/?hl=en" target="_blank">Portland Equity in Action</a><br>
+        Confronting + disrupting white narrative centering and white complacency in Portland, through advertising.</li>
+        <li><a href="http://www.tgijp.org/" target="_blank">TGIJP</a><br>
+        TGIJP is a group of trans, GV, and intersex people&mdash;inside and outside of prisons&mdash;creating a united family in the struggle for survival.</li>
       </ul>
   - id: 2
-    category: Listen
+    category: Educate
     content: >-
       <ul>
-      <li><a href="https://dataviztoday.com/" target="_blank">Data Viz Today</a><br>A Podcast that dissects the tools, methods, and techniques used in data viz.</li>
-      <li><a href="http://www.storytellingwithdata.com/podcast" target="_blank">Storytelling with Data, the Podcast</a><br>Author of the book by the same name, Cole Nussbaumer Knaflic interviews other data viz creators on the challenges and techniques they use to create engaging visualizations.</li>
-      <li><a href="https://99percentinvisible.org/" target="_blank">99% Invisible</a><br>While not specifically about data visualization, 99% Invisible is about the thought that goes into the designs we don't think about.
+      <li><a href="https://bookshop.org/books/how-to-be-an-antiracist/9780525509288" target="_blank">How To Be An Anti-Racist</a><br>by Ibram X. Kendi</li>
+      <li><a href="https://bookshop.org/books/freedom-is-a-constant-struggle-ferguson-palestine-and-the-foundations-of-a-movement/9781608465644" target="_blank">Freedom Is a Constant Struggle: Ferguson, Palestine, and the Foundations of a Movement</a><br>by Angela Y Davis</li>
+      <li><a href="https://bookshop.org/books/me-and-white-supremacy-combat-racism-change-the-world-and-become-a-good-ancestor/9781728209807" target="_blank">Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor</a><br>by Layla Saad</li>
+      <li><a href="https://bookshop.org/books/so-you-want-to-talk-about-race/9781580058827?aid=2644" target="_blank">So You Want to Talk about Race</a><br>by Ijeoma Oluo</li>
+      <li><a href="https://bookshop.org/books/well-read-black-girl-finding-our-stories-discovering-ourselves/9780525619772?aid=2644" target="_blank">Well-Read Black Girl: Finding Our Stories, Discovering Ourselves</a><br>by Glory Edim</li>
+      <li><a href="https://bookshop.org/books/white-tears-brown-scars-how-white-feminism-betrays-women-of-color/9781948226745?aid=2644" target="_blank">White Tears/Brown Scars: How White Feminism Betrays Women of Color</a><br>by Ruby Hamad</li>
+      <li><a href="https://bookshop.org/books/why-i-m-no-longer-talking-to-white-people-about-race/9781635572957?aid=2644" target="_blank">Why I'm No Longer Talking to White People about Race</a><br>by Reni Eddo-Lodge</li>
       </ul>
   - id: 3
-    category: Explore
+    category: Watch + Listen
     content: >-
       <ul>
-      <li><a href="https://datavizcatalogue.com/" target="_blank">Data Visualization Catalog</a><br>A library of different data visualizations categorized by function and type.</li>
-      <li><a href="https://thisisindexed.com/" target="_blank">This is Indexed</a><br>Simple data viz written on index cards by Jessica Hagy.</li>
-      <li><a href="https://www.informationisbeautifulawards.com/" target="_blank">Information is Beautiful</a><br>An awards series to help inspire creative approaches to data viz.</li>
-      <li><a href="http://plotparade.com/" target="_blank">Plot Parade</a><br>A fun data art project by Krisztina Sz&#369;cs.
+      <li><a href="https://www.netflix.com/title/80091741?source=35" target="_blank">13th</a><br>In this thought-provoking documentary, scholars, activists and politicians analyze the criminalization of African Americans and the U.S. prison boom.</li>
+      <li><a href="https://www.youtube.com/watch?v=obaQS9K94iM" target="_blank">Fruitvale Station</a><br>The true story of Oscar Grant, a 22-year-old Bay Area resident, who was murdered by police on New Years Eve in the Fruitvale BART station in Oakland.</li>
+      <li><a href="https://www.youtube.com/watch?v=VXfzFh0eBZQ" target="_blank">I Am Not Your Negro</a><br>A propulsive documentary about James Baldwin, his writings and his times.</li>
+      <li><a href="https://www.sceneonradio.org/seeing-white/" target="_blank">Seeing White Podcast</a><br>Fourteen-part documentary series discussing the notion of "whiteness", what it means and what is whiteness for?</li>
+      <li><a href="https://www.pbs.org/independentlens/films/black-power-mixtape-1967-1975/" target="_blank">The Black Power Mixtape</a><br>Candid 16mm footage shot in the 1960s and 1970s in the United States, all of it focused on the anti-war and Black Power movements.</li>
+      <li><a href="https://www.filmsforaction.org/watch/the-murder-of-fred-hampton-1971/" target="_blank">The Murder of Fred Hampton</a><br>This film depicts the brutal murder of Fred Hampton by the Chicago police and his life as a leader of the Chicago divison of the Black Panthers.</li>
+      <li><a href="https://www.youtube.com/watch?v=PK__SoNwxMw" target="_blank">Whose Streets?</a><br>A film about the Black Lives Matter uprisings in Ferguson and a record of the demonstrations.</li>
       </ul>
 ---

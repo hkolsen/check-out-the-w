@@ -1,11 +1,11 @@
 ---
 templateKey: coc-page
 ---
-# Check Out The W Code of Conduct
-
 ## Our Pledge
 
-<p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.<br><br>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.<p>
+We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.
 
 ## Our Standards
 
