@@ -88,6 +88,7 @@ const ShowDetails = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 6.5em;
   padding: 1em;
   ${({ theme }) => theme.media.medium`
         flex-direction: row;
