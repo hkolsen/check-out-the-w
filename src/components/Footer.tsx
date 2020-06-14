@@ -48,7 +48,11 @@ const FooterText = styled.div`
 `;
 
 const FooterLink = styled(TextLink)`
-    color: ${({ theme }) => theme.colors.WHITE}; 
+    color: ${({ theme }) => theme.colors.WHITE};
+    span {
+        color: ${({ theme }) => theme.colors.WHITE};
+
+    } 
 `;
 
 export const Footer: React.FC = () => 
