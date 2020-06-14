@@ -98,8 +98,9 @@ const ShowDetails = styled.div`
 `;
 
 const ShowDay = styled.span`
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold;
+  margin: 0;
   ${({ theme }) => theme.media.medium`
        font-size: 1.5em;
        padding: 0 0.5em 0 0;
@@ -107,8 +108,9 @@ const ShowDay = styled.span`
 `;
 
 const ShowDate = styled.span`
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
+  margin: 0;
   ${({ theme }) => theme.media.medium`
        font-size: 1.5em;
   `};
