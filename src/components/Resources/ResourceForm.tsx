@@ -72,13 +72,13 @@ const FormSet = styled.fieldset`
   width: 100%;
 `;
 
-// const FormLabel = styled.label`
-//   color: ${({ theme }) => theme.colors.BASE};
-//   font-size: 1em;
-//   font-weight: ${({ theme }) => theme.weights.REGULAR};
-//   margin: 0;
-//   padding: 0;
-// `;
+const FormLabel = styled.label`
+  color: ${({ theme }) => theme.colors.BASE};
+  font-size: 1em;
+  font-weight: ${({ theme }) => theme.weights.REGULAR};
+  margin: 0;
+  padding: 0;
+`;
 
 const FormLabelTextArea = styled.label`
   color: ${({ theme }) => theme.colors.BASE};
@@ -267,6 +267,7 @@ const FormContents: React.FC = () => {
               </FormSet>
             </FormColumn>
             <FormColumn>
+              <FormLabel>What category would this resource fall under?</FormLabel>
               {frontmatter?.categoryList?.filter(Boolean).map((category) => {
                 const open = openId === category.id;
                 return (
