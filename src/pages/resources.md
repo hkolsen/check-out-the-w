@@ -14,19 +14,22 @@ resourceList:
         Grassroots campaign in PDX to challenge policing and shift our reliance and resources to self-determined community care.</li>
         <li><a href="https://www.dontshootpdx.org/" target="_blank">Don't Shoot PDX</a><br>
         A social justice non-profit that promotes art, education & civic participation to create social change.</li>
+        <li><a href="https://www.instagram.com/pool_resources/" target="_blank">Pool Resources</a><br>
+        A network of care that aims to meet the needs of Portland's artistic community.</li>
         <li><a href="https://www.instagram.com/pdx.equity.in.action/?hl=en" target="_blank">Portland Equity in Action</a><br>
         Confronting + disrupting white narrative centering and white complacency in Portland, through advertising.</li>
         <li><a href="http://www.tgijp.org/" target="_blank">TGIJP</a><br>
         TGIJP is a group of trans, GV, and intersex people&mdash;inside and outside of prisons&mdash;creating a united family in the struggle for survival.</li>
       </ul>
   - id: 2
-    category: Educate
+    category: Educate Yourself
     content: >-
       <ul>
       <li><a href="https://bookshop.org/books/how-to-be-an-antiracist/9780525509288" target="_blank">How To Be An Anti-Racist</a><br>by Ibram X. Kendi</li>
       <li><a href="https://bookshop.org/books/freedom-is-a-constant-struggle-ferguson-palestine-and-the-foundations-of-a-movement/9781608465644" target="_blank">Freedom Is a Constant Struggle: Ferguson, Palestine, and the Foundations of a Movement</a><br>by Angela Y Davis</li>
       <li><a href="https://bookshop.org/books/me-and-white-supremacy-combat-racism-change-the-world-and-become-a-good-ancestor/9781728209807" target="_blank">Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor</a><br>by Layla Saad</li>
       <li><a href="https://bookshop.org/books/so-you-want-to-talk-about-race/9781580058827?aid=2644" target="_blank">So You Want to Talk about Race</a><br>by Ijeoma Oluo</li>
+      <li><a href="https://bookshop.org/books/the-fire-next-time/9780679744726" target="_blank">The Fire Next Time</a><br>by James Baldwin</li>
       <li><a href="https://bookshop.org/books/well-read-black-girl-finding-our-stories-discovering-ourselves/9780525619772?aid=2644" target="_blank">Well-Read Black Girl: Finding Our Stories, Discovering Ourselves</a><br>by Glory Edim</li>
       <li><a href="https://bookshop.org/books/white-tears-brown-scars-how-white-feminism-betrays-women-of-color/9781948226745?aid=2644" target="_blank">White Tears/Brown Scars: How White Feminism Betrays Women of Color</a><br>by Ruby Hamad</li>
       <li><a href="https://bookshop.org/books/why-i-m-no-longer-talking-to-white-people-about-race/9781635572957?aid=2644" target="_blank">Why I'm No Longer Talking to White People about Race</a><br>by Reni Eddo-Lodge</li>
@@ -51,7 +54,7 @@ categoryList:
     id: 01_donate
   - desc: >-
       Books and workshops
-    header: Educate
+    header: Educate Yourself
     id: 02_educate
   - desc: >-
       Documentaries, podcasts, music and film

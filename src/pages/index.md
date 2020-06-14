@@ -7,14 +7,6 @@ aboutHeader: CreW
 aboutContent: >-
   <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.<br><br>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.<p>
 programmingList:
-  - id: 1
-    featured: true
-    title: Party Pantry
-    description: >-
-      Back in action tonight with Illordess and Freaky Outty! Tonight the crew is raising funds for TGI Justice and PDX Equity in Action.
-    day: Saturday
-    date: 6/13
-    time: 8-10 pm PST
   - id: 2
     featured: false
     title: Church
@@ -47,6 +39,22 @@ programmingList:
     day: Friday
     date: 6/19
     time: 6-8 pm PST
+  - id: 6
+    featured: false
+    title: Storytime with Nisey
+    description: >-
+      This week we will continue reading from The People of Paper, by Salvador Plascencia.
+    day: Saturday
+    date: 6/20
+    time: 10-11 am PST
+  - id: 7
+    featured: false
+    title: Party Pantry
+    description: >-
+      Raising all types of FUNds while spinning the grooves with Illordess and Freaky Outty! 
+    day: Saturday
+    date: 6/20
+    time: 8-10 pm PST
 discordContent: >-
   <p>After the show is over, you don't need to hang up your hat. Head over to our new Discord channel to chat! Please take the time to <a href="/resources">make yourself familiar with our Code of Conduct</a> before you dive in.</p>
 ---
