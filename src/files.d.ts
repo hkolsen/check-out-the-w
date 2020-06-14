@@ -18,3 +18,4 @@ declare module '*.gif' {
 }
 declare module 'gatsby-background-image';
 declare module 'react-intl';
+declare module 'better-react-spinkit';

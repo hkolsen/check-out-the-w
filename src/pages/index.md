@@ -43,7 +43,7 @@ programmingList:
     featured: false
     title: Lead Vessel Grooves 
     description: >-
-      Lipp Lewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
+      LippLewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
     day: Friday
     date: 6/19
     time: 6-8 pm PST

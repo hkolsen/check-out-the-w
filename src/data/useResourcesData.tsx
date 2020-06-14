@@ -12,6 +12,11 @@ interface ResourcesQueryResponse {
         category: string;
         content: string;
       }>;
+      categoryList: Array<{
+        id: string;
+        desc: string;
+        header: string;
+      }>;
     };
   };
 }
@@ -30,6 +35,11 @@ export const useResourcesData = () => {
               id
               category
               content
+            }
+            categoryList {
+              id
+              desc
+              header
             }
           }
         }

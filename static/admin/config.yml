@@ -67,6 +67,23 @@ collections:
               - { label: Order, name: id, widget: number, required: false }
               - { label: Category, name: category, widget: string, required: false }
               - { label: Links, name: content, widget: markdown, required: false }
+          - label: 'Categories'
+            name: 'categoryList'
+            widget: 'list'
+            fields:
+              - { label: Order, name: id, widget: number, required: false }
+              - {
+                  label: Category title,
+                  name: header,
+                  widget: string,
+                  required: false,
+                }  
+              - {
+                  label: Category description,
+                  name: desc,
+                  widget: markdown,
+                  required: false,
+                }    
       - file: "src/pages/index.md"
         label: "Home Page"
         name: "home"

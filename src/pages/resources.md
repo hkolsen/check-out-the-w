@@ -5,7 +5,7 @@ resourcesSubheader: >-
   <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation. <br /><br />We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space. The following are resources that allow us to use our relative privilege to support the larger community through donations, education, and creating space.<br /><br />If you have a resource you would like to share, please fill out the form below. All contributions are welcome and will need to adhere to our <a href="/code-of-conduct">Code of Conduct</a>.</p>
 resourceList:
   - id: 1
-    category: Donate
+    category: Donate + Support
     content: >-
       <ul>
          <li><a href="https://www.blackgirlscode.com/" target="_blank">Black Girls Code</a><br>
@@ -44,4 +44,19 @@ resourceList:
       <li><a href="https://www.netflix.com/title/80200549" target="_blank">When They See Us</a><br>Five teens from Harlem become trapped in a nightmare when they're falsely accused of a brutal attack in Central Park. Based on the true story.</li>
       <li><a href="https://www.youtube.com/watch?v=PK__SoNwxMw" target="_blank">Whose Streets?</a><br>A film about the Black Lives Matter uprisings in Ferguson and a record of the demonstrations.</li>
       </ul>
+categoryList:
+  - desc: >-
+      Non-profit organizations, artists, musicians
+    header: Donate + Support
+    id: 01_donate
+  - desc: >-
+      Books and workshops
+    header: Educate
+    id: 02_educate
+  - desc: >-
+      Documentaries, podcasts, music and film
+    header: Watch + Listen
+    id: 03_watchlisten
+  - header: Other
+    id: 05_other
 ---

@@ -28,7 +28,9 @@
         "bundle"
     ],
     "dependencies": {
+        "@bumped-inc/hooks": "^2.0.0",
         "anchorate": "^1.2.3",
+        "better-react-spinkit": "^2.0.4",
         "gatsby": "^2.23.3",
         "gatsby-background-image": "^0.8.3",
         "gatsby-image": "^2.4.7",
