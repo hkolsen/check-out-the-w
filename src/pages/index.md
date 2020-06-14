@@ -19,7 +19,7 @@ programmingList:
     featured: false
     title: Church
     description: >-
-      Text
+      Join DJ B-Rad and Bidegain as they ease us out of the weekend and lift our spirits with soulful tunes and dope cartoons.
     day: Sunday
     date: 6/14
     time: 7-9 pm PST
