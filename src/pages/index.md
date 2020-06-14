@@ -39,6 +39,14 @@ programmingList:
     day: Wednesday
     date: 6/17
     time: 5-8 pm PST
+  - id: 5
+    featured: false
+    title: Lead Vessel Grooves 
+    description: >-
+      Lipp Lewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
+    day: Friday
+    date: 6/19
+    time: 6-8 pm PST
 discordContent: >-
   <p>After the show is over, you don't need to hang up your hat. Head over to our new Discord channel to chat! Please take the time to <a href="/resources">make yourself familiar with our Code of Conduct</a> before you dive in.</p>
 ---
