@@ -41,6 +41,7 @@ resourceList:
       <li><a href="https://www.sceneonradio.org/seeing-white/" target="_blank">Seeing White Podcast</a><br>Fourteen-part documentary series discussing the notion of "whiteness", what it means and what is whiteness for?</li>
       <li><a href="https://www.pbs.org/independentlens/films/black-power-mixtape-1967-1975/" target="_blank">The Black Power Mixtape</a><br>Candid 16mm footage shot in the 1960s and 1970s in the United States, all of it focused on the anti-war and Black Power movements.</li>
       <li><a href="https://www.filmsforaction.org/watch/the-murder-of-fred-hampton-1971/" target="_blank">The Murder of Fred Hampton</a><br>This film depicts the brutal murder of Fred Hampton by the Chicago police and his life as a leader of the Chicago divison of the Black Panthers.</li>
+      <li><a href="https://www.netflix.com/title/80200549" target="_blank">When They See Us</a><br>Five teens from Harlem become trapped in a nightmare when they're falsely accused of a brutal attack in Central Park. Based on the true story.</li>
       <li><a href="https://www.youtube.com/watch?v=PK__SoNwxMw" target="_blank">Whose Streets?</a><br>A film about the Black Lives Matter uprisings in Ferguson and a record of the demonstrations.</li>
       </ul>
 ---
