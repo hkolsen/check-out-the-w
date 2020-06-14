@@ -31,6 +31,14 @@ programmingList:
     day: Wednesday
     date: 6/17
     time: 10-11 am PST
+  - id: 4
+    featured: false
+    title: Classics Never Heard
+    description: >-
+      Join B-Hill coming live from Detroit where he plays rare soul 45s. Perfect for the outsiders and fort builders.
+    day: Wednesday
+    date: 6/17
+    time: 5-8 pm PST
 discordContent: >-
   <p>After the show is over, you don't need to hang up your hat. Head over to our new Discord channel to chat! Please take the time to <a href="/resources">make yourself familiar with our Code of Conduct</a> before you dive in.</p>
 ---
