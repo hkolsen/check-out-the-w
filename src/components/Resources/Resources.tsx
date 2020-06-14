@@ -26,7 +26,7 @@ const ResourcesHeader = styled.h2`
   margin: 0 0 0.5em;
   padding: 0.25em 0.5em;
   ${({ theme }) => theme.media.medium`
-      font-size: 2.5em;
+      font-size: 2em;
   `};
 `;
 
@@ -81,6 +81,9 @@ const ResourceCategory = styled.h2`
     padding: 0.5em 0.75em;
     text-transform: uppercase;
   }
+  ${({ theme }) => theme.media.medium`
+      font-size: 1em;
+  `};
 `;
 
 const ResourceContent = styled(MarkdownWrapper)`
