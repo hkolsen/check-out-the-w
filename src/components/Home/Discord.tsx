@@ -68,7 +68,6 @@ const Body = styled(MarkdownWrapper)`
       }
     }
     ${({ theme }) => theme.media.medium`
-        min-height: 10em;
         padding: 0.5em 0; 
         width: 100%
         br {
@@ -78,7 +77,7 @@ const Body = styled(MarkdownWrapper)`
 `;
 
 const DiscordLink = styled(CTALink)`
-  margin: 0;
+  margin: 1em 0 0;
   ${({ theme }) => theme.media.medium`
        font-size: 1.25em;
     `};
