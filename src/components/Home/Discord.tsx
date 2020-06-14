@@ -10,6 +10,9 @@ const DiscordWrapper = styled.div`
     border-bottom: 0.5em solid ${({ theme }) => theme.colors.DARK_GRAY};
     padding: 3em 0;
     width: 100%;
+    ${({ theme }) => theme.media.medium`
+        padding: 3em 0 2.5em;
+  `};
 `;
 
 const DiscordSection = styled.section`

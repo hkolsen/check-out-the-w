@@ -11,7 +11,7 @@ programmingList:
     featured: true
     title: Party Pantry
     description: >-
-      Text
+      Back in action tonight with Illordess and Freaky Outty! Tonight the crew is raising funds for TGI Justice and PDX Equity in Action.
     day: Saturday
     date: 6/13
     time: 8-10 pm PST

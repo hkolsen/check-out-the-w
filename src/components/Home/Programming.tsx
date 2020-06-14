@@ -91,8 +91,9 @@ const ShowDetails = styled.div`
   padding: 1em;
   ${({ theme }) => theme.media.medium`
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-start;
         margin: 0 0 2em;
+        padding: 0.5em;
   `};
 `;
 
@@ -100,7 +101,7 @@ const ShowDay = styled.span`
   font-size: 1.5em;
   font-weight: bold;
   ${({ theme }) => theme.media.medium`
-       font-size: 2em;
+       font-size: 1.5em;
        padding: 0 0.5em 0 0;
   `};
 `;
@@ -109,7 +110,7 @@ const ShowDate = styled.span`
   font-size: 2.5em;
   font-weight: bold;
   ${({ theme }) => theme.media.medium`
-       font-size: 2em;
+       font-size: 1.5em;
   `};
 `;
 
