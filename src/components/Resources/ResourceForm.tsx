@@ -250,7 +250,7 @@ const FormContents: React.FC = () => {
                     description="Message field for the Contact Us form"
                     id="ResourceForm.message"
                   />
-                  <Input type="text" fieldName="submitName" />
+                  <Input type="textarea" fieldName="submitName" />
                 </FormLabelTextArea>
               </FormSet>
             </FormColumn>
@@ -262,7 +262,7 @@ const FormContents: React.FC = () => {
                     description="Message field for the Contact Us form"
                     id="ResourceForm.message"
                   />
-                  <Input type="text" fieldName="title" />
+                  <Input type="textarea" fieldName="title" />
                 </FormLabelTextArea>
               </FormSet>
             </FormColumn>
