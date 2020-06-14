@@ -17,20 +17,20 @@ programmingList:
     time: 7-9 pm PST
   - id: 3
     featured: false
-    title: Yoga with AZSoozee
-    description: >-
-      Move your plants out of the way, grab your mat, and join us while Suze guides us through a sequence of yoga poses. Beginners welcome and encouraged.
-    day: Wednesday
-    date: 6/17
-    time: 10-11 am PST
-  - id: 4
-    featured: false
     title: Classics Never Heard
     description: >-
       Join B-Hill coming live from Detroit where he plays rare soul 45s. Perfect for the outsiders and fort builders.
     day: Wednesday
     date: 6/17
     time: 5-8 pm PST
+  - id: 4
+    featured: false
+    title: Yoga with AZSoozee
+    description: >-
+      Move your plants out of the way, grab your mat, and join us while Suze guides us through a sequence of yoga poses. Beginners welcome and encouraged.
+    day: Thursday
+    date: 6/18
+    time: 10-11 am PST
   - id: 5
     featured: false
     title: Lead Vessel Grooves 
