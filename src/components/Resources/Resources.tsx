@@ -2,7 +2,6 @@ import React from 'react';
 import { styled } from '~/styled';
 import { MarkdownWrapper } from '../MarkdownWrapper';
 import { useResourcesData } from '~/data/useResourcesData';
-import { FormattedMessage } from 'react-intl';
 
 const ResourcesWrapper = styled.div`
   background: ${({ theme }) => theme.colors.LIGHT_BG};
