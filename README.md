@@ -7,7 +7,7 @@ This is Gatsby site that leverages Netlify CMS for content editing. It is a grea
 Clone the project to your local development environment:
 
 ```
-git clone git@github.com:hkolsen/gatsby-portfolio-site.git
+git clone git@github.com:hkolsen/check-out-the-w.git
 ```
 
 Run Yarn in the console to install all dependencies:
