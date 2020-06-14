@@ -110,7 +110,7 @@ export const TextInput: React.FC<TextInputProps> = ({
 
   return (
     <FormFieldWrapper>
-      <FormLabel htmlFor={name} light={light} visible={!!focused}>
+      <FormLabel htmlFor={name} visible={!!focused}>
         {label}
       </FormLabel>
       <FormInput

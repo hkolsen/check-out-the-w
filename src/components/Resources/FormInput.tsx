@@ -1,9 +1,6 @@
 import React from 'react';
 import { styled } from '~/styled';
-import { useFocused } from './useFocused';
 import { FormActionType, FormState, useForm } from './ResourceFormManager';
-import { TextInput } from './TextInput';
-
 
 const FormTextArea = styled.textarea`
   background: ${({ theme}) => theme.colors.WHITE};
@@ -77,7 +74,6 @@ export const Input: React.FC<InputProps> = ({
   radioValue,
   onRadioChange,
 }) => {
-  const { onFocus, onBlur } = useFocused();
   const { value, onChange } = useFormInput(fieldName);
   switch (type) {
     case 'textarea':
@@ -103,20 +99,6 @@ export const Input: React.FC<InputProps> = ({
             return onChange(event);
           }}
         />
-      );
-    case 'text':
-      return (
-          <TextInput
-            id={fieldName}
-            name={fieldName}
-            required
-            aria-required="true"
-            type={type}
-            onFocus={onFocus}
-            onBlur={onBlur}
-            value={value}
-            onChange={onChange}
-          />
       );
     default:
       return null;

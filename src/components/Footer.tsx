@@ -48,9 +48,9 @@ const FooterText = styled.div`
 `;
 
 const FooterLink = styled(TextLink)`
-    color: ${({ theme }) => theme.colors.WHITE};
+    color: ${({ theme }) => theme.colors.WHITE}!important;
     span {
-        color: ${({ theme }) => theme.colors.WHITE};
+        color: ${({ theme }) => theme.colors.WHITE}!important;
 
     } 
 `;
@@ -66,16 +66,16 @@ export const Footer: React.FC = () =>
             />
         </FooterHeader>
         <FooterLinkList>
-            <FooterLink linkURL="#" linkType="external">
+            <FooterLink linkURL="https://www.twitch.tv/checkoutthew" linkType="external">
                 Check Out The W Twitch Channel
             </FooterLink>
-            <FooterLink linkURL="#" linkType="external">
+            <FooterLink linkURL="https://discord.com/invite/Abxs4b3" linkType="external">
                 Discord Channel
             </FooterLink>
-            <FooterLink linkURL="#" linkType="external">
+            <FooterLink linkURL="/resources" linkType="external">
                 Community Resources
             </FooterLink>
-            <FooterLink linkURL="#" linkType="external">
+            <FooterLink linkURL="/code-of-conduct" linkType="external">
                 Code of Conduct
             </FooterLink>
         </FooterLinkList> 

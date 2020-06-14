@@ -283,7 +283,7 @@ const FormContents: React.FC = () => {
                       <RadioIconContainer open={open}>
                         <RadioIcon
                           color={colors.WHITE}
-                          iconName="Category "
+                          iconName="Category"
                         />
                       </RadioIconContainer>
                       <RadioLabelText>{category.header}</RadioLabelText>
