@@ -40,6 +40,7 @@ resourceList:
       <ul>
       <li><a href="https://www.netflix.com/title/80091741?source=35" target="_blank">13th</a><br>In this thought-provoking documentary, scholars, activists and politicians analyze the criminalization of African Americans and the U.S. prison boom.</li>
       <li><a href="https://www.youtube.com/watch?v=obaQS9K94iM" target="_blank">Fruitvale Station</a><br>The true story of Oscar Grant, a 22-year-old Bay Area resident, who was murdered by police on New Years Eve in the Fruitvale BART station in Oakland.</li>
+      <li><a href="https://vimeo.com/307774093" target="_blank">Here: A Visual Poem</a><br>An experimental visual poem combining video, photography, and animation to examine the lived Black experience and ultimately ask what it means to be 'here'.</li>
       <li><a href="https://www.youtube.com/watch?v=VXfzFh0eBZQ" target="_blank">I Am Not Your Negro</a><br>A propulsive documentary about James Baldwin, his writings and his times.</li>
       <li><a href="https://www.sceneonradio.org/seeing-white/" target="_blank">Seeing White Podcast</a><br>Fourteen-part documentary series discussing the notion of "whiteness", what it means and what is whiteness for?</li>
       <li><a href="https://www.pbs.org/independentlens/films/black-power-mixtape-1967-1975/" target="_blank">The Black Power Mixtape</a><br>Candid 16mm footage shot in the 1960s and 1970s in the United States, all of it focused on the anti-war and Black Power movements.</li>

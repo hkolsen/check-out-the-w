@@ -7,16 +7,8 @@ aboutHeader: CreW
 aboutContent: >-
   <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.<br><br>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.<p>
 programmingList:
-  - id: 2
-    featured: true
-    title: Church
-    description: >-
-      Join DJ B-Rad and Bidegain as they ease us out of the weekend and lift our spirits with soulful tunes and dope cartoons.
-    day: Sunday
-    date: 6/14
-    time: 7-9 pm PST
   - id: 3
-    featured: false
+    featured: true
     title: Classics Never Heard
     description: >-
       Join B-Hill coming live from Detroit where he plays rare soul 45s. Perfect for the outsiders and fort builders.
@@ -63,6 +55,14 @@ programmingList:
     day: Saturday
     date: 6/20
     time: ALL DAY
+  - id: 9
+    featured: false
+    title: Church
+    description: >-
+      Join DJ B-Rad and Bidegain as they ease us out of the weekend and lift our spirits with soulful tunes and dope cartoons.
+    day: Sunday
+    date: 6/21
+    time: 7-9 pm PST
 discordContent: >-
   <p>After the show is over, you don't need to hang up your hat. Head over to our new Discord channel to chat! Please take the time to <a href="/resources">make yourself familiar with our Code of Conduct</a> before you dive in.</p>
 ---
