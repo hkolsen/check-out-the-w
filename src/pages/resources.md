@@ -30,7 +30,9 @@ resourceList:
       <li><a href="https://bookshop.org/books/me-and-white-supremacy-combat-racism-change-the-world-and-become-a-good-ancestor/9781728209807" target="_blank">Me and White Supremacy: Combat Racism, Change the World, and Become a Good Ancestor</a><br>by Layla Saad</li>
       <li><a href="https://bookshop.org/books/so-you-want-to-talk-about-race/9781580058827?aid=2644" target="_blank">So You Want to Talk about Race</a><br>by Ijeoma Oluo</li>
       <li><a href="https://bookshop.org/books/the-fire-next-time/9780679744726" target="_blank">The Fire Next Time</a><br>by James Baldwin</li>
+      <li><a href="https://tatianamac.com/posts/save-the-tears/" target="_blank">Save the Tears: White Woman's Guide</a><br>by Tatiana Mac</li>
       <li><a href="https://bookshop.org/books/well-read-black-girl-finding-our-stories-discovering-ourselves/9780525619772?aid=2644" target="_blank">Well-Read Black Girl: Finding Our Stories, Discovering Ourselves</a><br>by Glory Edim</li>
+      <li><a href="https://tatianamac.com/posts/white-guyde/" target="_blank">White Guyde To The Galaxy</a><br>by Tatiana Mac</li>
       <li><a href="https://bookshop.org/books/white-tears-brown-scars-how-white-feminism-betrays-women-of-color/9781948226745?aid=2644" target="_blank">White Tears/Brown Scars: How White Feminism Betrays Women of Color</a><br>by Ruby Hamad</li>
       <li><a href="https://bookshop.org/books/why-i-m-no-longer-talking-to-white-people-about-race/9781635572957?aid=2644" target="_blank">Why I'm No Longer Talking to White People about Race</a><br>by Reni Eddo-Lodge</li>
       </ul>
