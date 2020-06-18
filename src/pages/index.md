@@ -7,24 +7,8 @@ aboutHeader: CreW
 aboutContent: >-
   <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.<br><br>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.<p>
 programmingList:
-  - id: 3
-    featured: true
-    title: Classics Never Heard
-    description: >-
-      Join B-Hill coming live from Detroit where he plays rare soul 45s. Perfect for the outsiders and fort builders.
-    day: Wednesday
-    date: 6/17
-    time: 5-8 pm PST
-  - id: 4
-    featured: false
-    title: Yoga with AZSoozee
-    description: >-
-      Move your plants out of the way, grab your mat, and join us while Suze guides us through a sequence of yoga poses. Beginners welcome and encouraged.
-    day: Thursday
-    date: 6/18
-    time: 10-11 am PST
   - id: 5
-    featured: false
+    featured: true
     title: Lead Vessel Grooves 
     description: >-
       LippLewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
@@ -63,6 +47,22 @@ programmingList:
     day: Sunday
     date: 6/21
     time: 7-9 pm PST
+  - id: 10
+    featured: false
+    title: Classics Never Heard
+    description: >-
+      Join B-Hill coming live from Detroit where he plays rare soul 45s. Perfect for the outsiders and fort builders.
+    day: Wednesday
+    date: 6/24
+    time: 5-8 pm PST
+  - id: 11
+    featured: false
+    title: Yoga with AZSoozee
+    description: >-
+      Move your plants out of the way, grab your mat, and join us while Suze guides us through a sequence of yoga poses. Beginners welcome and encouraged.
+    day: Thursday
+    date: 6/25
+    time: 10-11 am PST
 discordContent: >-
   <p>After the show is over, you don't need to hang up your hat. Head over to our new Discord channel to chat! Please take the time to <a href="/resources">make yourself familiar with our Code of Conduct</a> before you dive in.</p>
 ---
