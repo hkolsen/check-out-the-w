@@ -7,16 +7,8 @@ aboutHeader: CreW
 aboutContent: >-
   <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.<br><br>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.<p>
 programmingList:
-  - id: 5
-    featured: true
-    title: Lead Vessel Grooves 
-    description: >-
-      LippLewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
-    day: Friday
-    date: 6/19
-    time: 6-8 pm PST
   - id: 6
-    featured: false
+    featured: true
     title: Storytime with Nisey
     description: >-
       This week we will continue reading from The People of Paper, by Salvador Plascencia.
@@ -63,6 +55,14 @@ programmingList:
     day: Thursday
     date: 6/25
     time: 10-11 am PST
+  - id: 12
+    featured: false
+    title: Lead Vessel Grooves 
+    description: >-
+      LippLewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
+    day: Friday
+    date: 6/26
+    time: 6-8 pm PST
 discordContent: >-
   <p>After the show is over, you don't need to hang up your hat. Head over to our new Discord channel to chat! Please take the time to <a href="/resources">make yourself familiar with our Code of Conduct</a> before you dive in.</p>
 ---
