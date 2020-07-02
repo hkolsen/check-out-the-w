@@ -8,7 +8,7 @@ aboutContent: >-
   <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.<br><br>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.<p>
 programmingList:
   - id: 12
-    featured: false
+    featured: true
     title: Lead Vessel Grooves 
     description: >-
       LippLewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
