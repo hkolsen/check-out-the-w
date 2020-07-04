@@ -9,20 +9,20 @@ aboutContent: >-
 programmingList:
   - id: 12
     featured: true
-    title: Lead Vessel Grooves 
-    description: >-
-      LippLewtenant and STLB3 take our eardrums on a fantastic musical voyage with funky drums and heavy shit.
-    day: Friday
-    date: 7/3
-    time: 6-8 pm PST
-  - id: 13
-    featured: false
     title: Storytime with Nisey
     description: >-
       This week we will continue reading from The People of Paper, by Salvador Plascencia.
     day: Saturday
     date: 7/4
     time: 10-11 am PST
+  - id: 13
+    featured: false
+    title: Dreams
+    description: >-
+      Matching donations up to $500 for the NDN Collective.
+    day: Saturday
+    date: 7/4
+    time: 5-6 pm PST
   - id: 14
     featured: false
     title: Party Pantry
