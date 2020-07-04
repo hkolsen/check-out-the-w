@@ -7,7 +7,7 @@ aboutHeader: CreW
 aboutContent: >-
   <p>We are a community that is dedicated to creating a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.<br><br>We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy space.<p>
 programmingList:
-  - id: 12
+  - id: 13
     featured: true
     title: Storytime with Nisey
     description: >-
@@ -15,22 +15,14 @@ programmingList:
     day: Saturday
     date: 7/4
     time: 10-11 am PST
-  - id: 13
+  - id: 14
     featured: false
     title: Dreams
     description: >-
-      Matching donations up to $500 for the NDN Collective.
+      Matching donations up to $500 for the NDN Collective. 
     day: Saturday
     date: 7/4
     time: 5-6 pm PST
-  - id: 14
-    featured: false
-    title: Party Pantry
-    description: >-
-      Raising all types of FUNds while spinning the grooves with Illordess and Freaky Outty! 
-    day: Saturday
-    date: 7/4
-    time: 8-10 pm PST
   - id: 15
     featured: false
     title: Church
