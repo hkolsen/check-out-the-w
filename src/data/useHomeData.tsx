@@ -8,14 +8,14 @@ interface HomeQueryResponse {
       subheader: string;
       aboutHeader: string;
       aboutContent: string;
-      programmingList: Array<{
+      programmingList?: Array<{
         id: string;
         featured: boolean;
         title: string;
         description: string;
-        day: string;
-        date: string;
-        time: string;
+        day?: string;
+        date?: string;
+        time?: string;
       }>;
       discordContent: string;
     };

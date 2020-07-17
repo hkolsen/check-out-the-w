@@ -59,7 +59,7 @@ const List = styled.ul`
 `;
 
 const Item = styled.li<{ featured: boolean }>`
-    background: ${({ theme, featured }) => featured ? theme.colors.BRIGHT_BG : theme.colors.WHITE};
+    background: ${({ theme, featured }) => featured ? theme.colors.WHITE : theme.colors.WHITE};
     border: 2px solid ${({ theme }) => theme.colors.DARK_GRAY};
     border-top: ${({ theme, featured }) => featured ? `2px solid ${theme.colors.DARK_GRAY}` : `none`};
     border-bottom: ${({ theme, featured }) => featured ? `5px solid ${theme.colors.DARK_GRAY}` : `2px solid ${theme.colors.DARK_GRAY}`};
@@ -185,10 +185,12 @@ export const Programming: React.FC = () => {
         {(frontmatter.programmingList || []).map((show) => (
             <Item key={show.id} featured={show.featured}>
                 <ShowContent>
+                {show.day && 
                 <ShowDetails>
                   <ShowDay>{show.day}</ShowDay>
                   <ShowDate>{show.date}</ShowDate>
                 </ShowDetails>
+                }
                 <ShowHeader>
                   <ShowTitle>{show.title}</ShowTitle>
                   <ShowDesc content={show.description} />
