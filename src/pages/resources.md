@@ -35,6 +35,7 @@ resourceList:
       <li><a href="https://tatianamac.com/posts/white-guyde/" target="_blank">White Guyde To The Galaxy</a><br>by Tatiana Mac</li>
       <li><a href="https://bookshop.org/books/white-tears-brown-scars-how-white-feminism-betrays-women-of-color/9781948226745?aid=2644" target="_blank">White Tears/Brown Scars: How White Feminism Betrays Women of Color</a><br>by Ruby Hamad</li>
       <li><a href="https://bookshop.org/books/why-i-m-no-longer-talking-to-white-people-about-race/9781635572957?aid=2644" target="_blank">Why I'm No Longer Talking to White People about Race</a><br>by Reni Eddo-Lodge</li>
+      <li><a href="https://www.fingerprintforsuccess.com/blog/racism-in-the-workplace" target="_blank">What so many get wrong about racism in the workplace</a><br /> Racism has been wreaking havoc in our professional lives and we need to address this issue. When companies fail to embrace people of color in the workplace, it is truly a loss for all involved.  At F4S, we've gathered various Racism Workplace Statistics which include data from Glassdoor, SHRM, and from different businesses and organizations. We've also created simple steps you can take to fight racism in the workplace. </li>
       </ul>
   - id: 3
     category: Watch + Listen
