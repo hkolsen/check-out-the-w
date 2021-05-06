@@ -133,7 +133,13 @@ export const EventLocation: React.FC = () =>
             id="Location.Header"
             />
             </Header>
-            
+            <HeaderLink linkURL="https://forms.gle/khjP2WdWad9ixDdB6" linkType="external">
+            <FormattedMessage
+            defaultMessage="RSVP"
+            description="Navigation link that Events you the map"
+            id="Location.link"
+            />
+            </HeaderLink>
         </HeaderContainer>
         <AddressContainer>
         <EventDetails>
