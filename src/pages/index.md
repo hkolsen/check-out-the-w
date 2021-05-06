@@ -9,11 +9,11 @@ aboutContent: >-
 programmingList:
   - id: 1
     featured: true
-    title: No Upcoming Events
-    description: Check out <a href="https://discord.com/invite/Abxs4b3">Discord</a> to continue the conversation.
-    day: ''
-    date: ''
-    time: ''
+    title: The W
+    description: We're back baybeee! Celebrating TWENTY years of friendship and fun. <a href="/events">Get the details</a> 
+    day: Wed - Sun
+    date: July 14 - 18
+    time: All Day
 discordContent: >-
   <p>After the show is over, you don't need to hang up your hat. Head over to our new Discord channel to chat! Please take the time to <a href="/resources">make yourself familiar with our Code of Conduct</a> before you dive in.</p>
 ---

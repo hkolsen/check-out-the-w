@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useHandler } from '@bumped-inc/hooks';
 import { styled } from '~/styled';
+import { useHandler } from '~/utils';
 
 const FormFieldWrapper = styled.fieldset`
   align-items: flex-start;

@@ -51,41 +51,45 @@ const FooterLink = styled(TextLink)`
     color: ${({ theme }) => theme.colors.WHITE}!important;
     span {
         color: ${({ theme }) => theme.colors.WHITE}!important;
-
     } 
 `;
 
-export const Footer: React.FC = () => 
-<FooterSection>
-    <FooterContainer>
-        <FooterHeader>
-        <FormattedMessage
-            defaultMessage="Helpful Links"
-            description="Header for the social links"
-            id="Footer.SocialLinks"
-            />
-        </FooterHeader>
-        <FooterLinkList>
-            <FooterLink linkURL="https://www.twitch.tv/checkoutthew" linkType="external">
-                Check Out The W Twitch Channel
-            </FooterLink>
-            <FooterLink linkURL="https://discord.com/invite/Abxs4b3" linkType="external">
-                Discord Channel
-            </FooterLink>
-            <FooterLink linkURL="/resources" linkType="external">
-                Community Resources
-            </FooterLink>
-            <FooterLink linkURL="/code-of-conduct" linkType="external">
-                Code of Conduct
-            </FooterLink>
-        </FooterLinkList> 
-        <FooterText>
-        <FormattedMessage
-              defaultMessage="&copy; 2020 Check Out The W, a GrandCooley Jam"
-              description="Copyright for the site"
-              id="Footer.Copyright"
-              />
-        </FooterText>   
+export const Footer: React.FC = () => {
+    const currentYear = new Date().getFullYear();
+    return (
+    <FooterSection>
+        <FooterContainer>
+            <FooterHeader>
+            <FormattedMessage
+                defaultMessage="Helpful Links"
+                description="Header for the social links"
+                id="Footer.SocialLinks"
+                />
+            </FooterHeader>
+            <FooterLinkList>
+                <FooterLink linkURL="https://www.twitch.tv/checkoutthew" linkType="external">
+                    Check Out The W Twitch Channel
+                </FooterLink>
+                <FooterLink linkURL="https://discord.com/invite/Abxs4b3" linkType="external">
+                    Discord Channel
+                </FooterLink>
+                <FooterLink linkURL="/resources" linkType="external">
+                    Community Resources
+                </FooterLink>
+                <FooterLink linkURL="/code-of-conduct" linkType="external">
+                    Code of Conduct
+                </FooterLink>
+            </FooterLinkList> 
+            <FooterText>
+            <FormattedMessage
+                defaultMessage="&copy; {currentYear} Check Out The W, a GrandCooley Jam"
+                description="Copyright for the site"
+                id="Footer.Copyright"
+                values={{
+                    currentYear
+                }}
+                />
+            </FooterText>   
         </FooterContainer>   
     </FooterSection>
-  
+)};

@@ -48,6 +48,9 @@ const Content = styled.div`
       text-decoration: none;
     }
   }
+  strong {
+    font-weight: bold;
+  }
   ${({ theme }) => theme.media.medium`
      blockquote {
       float: none;

@@ -1,6 +1,6 @@
 import qs from 'qs';
 import React, { createContext, useContext, useReducer } from 'react';
-import { useAsyncHandler, useHandler, useObjectMemo } from '@bumped-inc/hooks';
+import { useAsyncHandler, useHandler, useObjectMemo } from '~/utils';
 
 export interface FormState {
   submitName: string;
