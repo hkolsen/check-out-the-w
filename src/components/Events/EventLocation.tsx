@@ -47,6 +47,9 @@ const Header = styled.h1`
 const HeaderLink = styled(CTALink)`
   font-size: 2em;
   margin: 0;
+  ${({ theme }) => theme.media.medium`
+         font-size: 1.5em;
+  `};
 `;
 
 const AddressContainer = styled.section`
@@ -59,6 +62,12 @@ const AddressContainer = styled.section`
     flex-direction: row;
     justify-content: space-between;
     padding: 2em;
+    ${({ theme }) => theme.media.medium`
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 2em 1em;
+        max-width: 90%;
+  `};
 `;
 
 const AddressLine = styled.p`
@@ -134,7 +143,7 @@ export const EventLocation: React.FC = () =>
           <AddressLine>44644 Camp Morrison Drive<br></br>Scio, OR 97374</AddressLine>
           <HeaderLink linkURL="https://goo.gl/maps/gKTVtCgfnEoPAWr36" linkType="external">
             <FormattedMessage
-            defaultMessage="Event me on a map"
+            defaultMessage="Show me on a map"
             description="Navigation link that Events you the map"
             id="Location.link"
             />
