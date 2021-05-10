@@ -2,7 +2,7 @@
 templateKey: events-page
 aboutHeader: Location details
 aboutContent: >-
-  <p><em>Last updated 2021-05-06</em><br></br>
+  <p><em>Last updated 2021-05-10</em><br></br>
   <h2>Lay of the land:</h2>
   <ul>
   <li>Pavillion: Plenty of power, beautiful stage, upper balcony and a few grills</li>
@@ -19,6 +19,7 @@ aboutContent: >-
   <br />
   <h2>Things of note:</h2>
   <ul>
+  <li>Masks and social distancing will not be required and/or enforced. We welcome anyone regardless of vaccine status to join at their own risk. Please prioritize your health and reach out if you have questions.</li>
   <li>Power is plentiful, but will want to bring lighting for paths and other areas. Rope lights work well.</li>
   <li>Fires are unlikely due to fire season, if available there is one fire pit</li>
   <li>Plenty of water for drinking, washing and swimming.</li>
