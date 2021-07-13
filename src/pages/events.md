@@ -2,12 +2,45 @@
 templateKey: events-page
 aboutHeader: Location details
 aboutContent: >-
-  <p><em>Last updated 2021-07-09</em><br></br>
-  <h2>Cost:</h2>
-  The cost is $100/person which includes event rental, portable toilets and communal food. Venmo Palmer ASAP to reserve your spot: @Palmer-Auty.
+  <p><em>Last updated 2021-07-13</em><br></br>
+  <h2>Quick Links:
+  <ul>
+  <li><a href="#cost">Cost</a></li>
+  <li><a href="#pack">What to bring</a></li>
+  <li><a href="#food">Food plan</a></li>
+  <li><a href="#location">Lay of the land</a></li>
+  <li><a href="#misc">Other things of note</a></li>
+  </ul>
+  <h2 id="cost">Cost:</h2>
+  The cost is $100/person which includes event rental, portable toilets and communal food. Venmo Palmer ASAP to reserve your spot: <a href="https://venmo.com/Palmer-Auty" target="_blank">@Palmer-Auty</a>.
   <br />
   <br />
-  <h2>Food plan by Chef M@:</h2>
+  <h2 id="pack">Possible packlist:</h2>
+  <p>Bring for yourself:</p>
+  <ul>
+  <li>💤 Sleeping stuff: Beds are limited and have no linens provided, but plenty of space to camp. Remember that pillow!</li>
+  <li>🧼 Don't forget to bring a towel! There is a bathhouse with showers.</li>
+  <li>💦 Water bottle: Lots of clean drinking water, best to have a reusable container.</li>
+  <li>🍑 Personal stash of snacks or special meals: There is community food (see <a href="#food">food plan below</a>) as well.</li>
+  <li>🍹 Liquor or other libations: There will be some community beer and seltzers, but they tend to go fast.</li>
+  <li>💺 Camp chair or something to lounge in.</li>
+  <li>🦟 Bug spray + sunscreen: We have some for sharing as well.</li>
+  <li>🔦 Flashlight for night!</li>
+  <li>🕶 Sunglasses for day!</li>
+  <li>☀️ Swim gear: Lots of water to play in, so bring a swimsuit, towel, and river shoes.</li>
+  <li>🎉 Outfits that make you feel hype!</li>
+  <li>🥰 Outfits that make you feel cozy on chilly nights!</li>
+  <li>🩲 Underwear, probably?</li>
+  </ul>
+  <p>Lend to the crew, will be returned:</p>
+  <ul>
+  <li>🧊 ICE. Ok so this won't be returned, likely.</li>
+  <li>🔌 Extension cords</li>
+  <li>💡 Exterior lights for lighting up paths</li>
+  <li>☕️ Coffee pot</li>
+  </ul>
+  <br />
+  <h2 id="food">Food plan by Chef M@:</h2>
   <ul>
   <li>Unless people specifically volunteer (Elish has already requested to make a breakfast), all food/meals will be the 'serve yourself' variety.</li>
   <li>The food collected for the W is yours to eat! You don't need to ask anyone if it's ok to have a muffin or if you want to cook a cheeseburger before anyone else does. All of this food will be stored in the main office kitchen. </li>
@@ -21,7 +54,8 @@ aboutContent: >-
   <li><strong>For lunches,</strong> think "Corporate Off-Site BBQ." We'll have fixin's for burgers and dogs (again, we will have vegan options as well). Some various side dishes, veggies, and a deli sandwich bar. This is a serve yourself, though if people want to volunteer to cook off a bunch of burgers/dogs when it's almost lunch time, great.</li>
   <li><strong>For dinners,</strong> think "Survivor: Scio." Everyone will be divided into groups of 4 and compete in a grueling GAUNTLET challenge where you're not only battling Mother Nature, but the Nature of Humanity itself. Forge alliances, betray your friends, get stung by a bee. Bask in the glory of navigating a 4 mile obstacle course with a gluttonous reward of roasted penguins and a bathtub of caviar, while your defeated nemeses cry over a cold bowl of tomato soup. Just kidding, dinners will pretty be much be the same thing as breakfasts/lunches. There will be stuff to eat, you MAY have to cook it, OR you might find that someone has taken it upon themselves to cook some stuff to share. There might also be some cool meals made. I'm not 100% sure yet, but was thinking doing something like a Spaghetti dinner, or lasagnas/frozen pizzas.</li>
   </ul>
-  <h2>Lay of the land:</h2>
+  <br />
+  <h2 id="location">Lay of the land:</h2>
   <ul>
   <li>Pavillion: Plenty of power, beautiful stage, upper balcony and a few grills</li>
   <li>Main House: Catering fridge, oven, sandwich bar, meat slicer, additional smaller fridge. One bedroom and one bathroom but limited use</li>
@@ -35,7 +69,7 @@ aboutContent: >-
   <li>Shower house: 6-8 stalls with curtains plus a row of sinks and mirrors with outlets.</li>
   </ul>
   <br />
-  <h2>Other things of note:</h2>
+  <h2 id="misc">Other things of note:</h2>
   <ul>
   <li>Masks and social distancing will not be required and/or enforced. Feel free to take whatever precautions you need to in order to prioritize your health.</li>
   <li>Smoking + vaping will only be allowed in designated areas.</li>
