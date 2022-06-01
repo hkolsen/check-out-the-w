@@ -62,7 +62,7 @@
         "react-share": "^3.0.0",
         "react-tooltip-lite": "^1.9.4",
         "react-waypoint": "^9.0.2",
-        "sharp": "^0.22.1",
+        "sharp": "^0.30.5",
         "showdown": "^1.9.0",
         "smooth-scroll": "^16.0.3",
         "styled-components": "^4.1.3",
